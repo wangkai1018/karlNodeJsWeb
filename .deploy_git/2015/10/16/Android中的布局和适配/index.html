@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Android中的布局和适配 | Coding Evo | karlwk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="android">
+  <meta name="description" content="概述介绍几种android中常用的布局和适配尝试
+线性布局LinearLayout:在显示分割线时，使用 divider属性：
+
+设置一张分割线图片
+
+showDivider分割线的位置： 
+
+
+* none 无
+* begining 开始
+* end 结束
+* middle 两个组件之间
+线性布局的优点：它的weight属性，在适配时帮助还是很大的。
+线性布局的缺点：当页面比较复杂的时候，会嵌套">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android中的布局和适配">
+<meta property="og:url" content="http://www.codingevo.com/2015/10/16/Android中的布局和适配/index.html">
+<meta property="og:site_name" content="Coding Evo">
+<meta property="og:description" content="概述介绍几种android中常用的布局和适配尝试
+线性布局LinearLayout:在显示分割线时，使用 divider属性：
+
+设置一张分割线图片
+
+showDivider分割线的位置： 
+
+
+* none 无
+* begining 开始
+* end 结束
+* middle 两个组件之间
+线性布局的优点：它的weight属性，在适配时帮助还是很大的。
+线性布局的缺点：当页面比较复杂的时候，会嵌套">
+<meta property="og:updated_time" content="2016-04-08T13:32:08.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Android中的布局和适配">
+<meta name="twitter:description" content="概述介绍几种android中常用的布局和适配尝试
+线性布局LinearLayout:在显示分割线时，使用 divider属性：
+
+设置一张分割线图片
+
+showDivider分割线的位置： 
+
+
+* none 无
+* begining 开始
+* end 结束
+* middle 两个组件之间
+线性布局的优点：它的weight属性，在适配时帮助还是很大的。
+线性布局的缺点：当页面比较复杂的时候，会嵌套">
+  
+    <link rel="alternative" href="/atom.xml" title="Coding Evo" type="application/atom+xml">
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu" class="hide" >
+   <div class="inner">
+  <a href="javascript:;" class="header-icon waves-circle-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.png"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">karlwk</h5>
+        <a href="mailto:karlwk@codingevo.com" title="karlwk@codingevo.com" class="mail">karlwk@codingevo.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav">
+    
+        <li class="waves-block">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            主页
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            Archives
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/tags"  >
+            <i class="icon icon-lg icon-tags"></i>
+            Tags
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="https://github.com/wangkai1018" target="_blank" >
+            <i class="icon icon-lg icon-github"></i>
+            Github
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="http://weibo.com/u/1834790680" target="_blank" >
+            <i class="icon icon-lg icon-weibo"></i>
+            Weibo
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>Coding Evo &copy; 2018</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-circle-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">Android中的布局和适配</div>
+        
+        <a href="javascript:;" class="header-icon waves-circle-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">Android中的布局和适配</h1>
+    <h5 class="subtitle">2015-10-16</h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      
+  <article id="post-Android中的布局和适配" class="article article-type-post" itemscope itemprop="blogPost">
+    
+      <div class="post-meat flex-row">
+        <div class="flex-col">
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/android/">android</a></li></ul>
+</div>
+      </div>
+      <div class="post-body">
+
+        <aside class="post-widget" id="post-widget">
+
+          
+          <div class="post-share" id="post-share" data-title="Android中的布局和适配" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/10/16/Android中的布局和适配/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+          
+
+          
+          <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述"><span class="post-toc-text">概述</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#线性布局LinearLayout"><span class="post-toc-text">线性布局LinearLayout:</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#线性布局的优点："><span class="post-toc-text">线性布局的优点：</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#线性布局的缺点："><span class="post-toc-text">线性布局的缺点：</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#相对布局RelativeLayout"><span class="post-toc-text">相对布局RelativeLayout:</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#帧布局framelayout"><span class="post-toc-text">帧布局framelayout:</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#网格布局GridLayout"><span class="post-toc-text">网格布局GridLayout:</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#关于适配："><span class="post-toc-text">关于适配：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Android-Percent-Support-Lib"><span class="post-toc-text">Android Percent Support Lib</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#屏幕适配："><span class="post-toc-text">屏幕适配：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#解决方案："><span class="post-toc-text">解决方案：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#关于高清设计图尺寸"><span class="post-toc-text">关于高清设计图尺寸</span></a></li></ol></li></ol>
+          </nav>
+          
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" itemprop="postContent"><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>介绍几种android中常用的布局和适配尝试</p>
+<h3 id="线性布局LinearLayout"><a href="#线性布局LinearLayout" class="headerlink" title="线性布局LinearLayout:"></a>线性布局<code>LinearLayout</code>:</h3><p>在显示分割线时，使用 <code>divider</code>属性：</p>
+<ol>
+<li><p>设置一张分割线图片</p>
+</li>
+<li><p>showDivider分割线的位置： </p>
+</li>
+</ol>
+<pre><code>* none 无
+* begining 开始
+* end 结束
+* middle 两个组件之间
+</code></pre><h5 id="线性布局的优点："><a href="#线性布局的优点：" class="headerlink" title="线性布局的优点："></a>线性布局的优点：</h5><p>它的weight属性，在适配时帮助还是很大的。</p>
+<h5 id="线性布局的缺点："><a href="#线性布局的缺点：" class="headerlink" title="线性布局的缺点："></a>线性布局的缺点：</h5><p>当页面比较复杂的时候，会嵌套很多的线性布局，这样会降低<code>UI Render</code>的效率（渲染速度），二期如果是listview和gridview，效率会更低。另外太多层的线性布局嵌套会占用跟多的系统资源，还可能引发<code>stackoverflow</code></p>
+<h3 id="相对布局RelativeLayout"><a href="#相对布局RelativeLayout" class="headerlink" title="相对布局RelativeLayout:"></a>相对布局<code>RelativeLayout</code>:</h3><p>基本属性：</p>
+<ul>
+<li>gravity:设置容器内组件的对其方式</li>
+<li>ignoreGravity:设置了该属性为<code>true</code>时的组件，将不受<code>gravity</code>的属性影响</li>
+</ul>
+<h3 id="帧布局framelayout"><a href="#帧布局framelayout" class="headerlink" title="帧布局framelayout:"></a>帧布局<code>framelayout</code>:</h3><p>常用属性：</p>
+<ul>
+<li><code>foreground</code>:设置更改真布局的前景图像</li>
+<li><code>foregroundGravity</code>:是指前景图像显示的位置</li>
+</ul>
+<h3 id="网格布局GridLayout"><a href="#网格布局GridLayout" class="headerlink" title="网格布局GridLayout:"></a>网格布局<code>GridLayout</code>:</h3><p>该布局是android4.0之后推出的，所以最小API等级为14。<code>GridLayout</code>需要使用<code>v7</code>jar包，才可以使用。<br>可以解决线性布局和相对布局的复杂嵌套问题</p>
+<h3 id="关于适配："><a href="#关于适配：" class="headerlink" title="关于适配："></a>关于适配：</h3><ul>
+<li><code>dp</code>（dip）：设备独立像素，不同的设备有不同的显示效果。</li>
+<li><code>px</code>：不同设备，显示效果相同，一般HVGA320*480,用的比较多。一般我们为了支持WVGA和HVGA和QVGA，推荐使用这个，不依赖像素。</li>
+<li><code>pt</code>：是一个标准的长度单位，1pt=1/72英寸，用于印刷业，简单易用</li>
+<li><code>sp</code>：主要用于字体显示</li>
+</ul>
+<p>尽量搭配使用RelativeLayout+LinearLayout的weight属性</p>
+<p>ps:google官方并不提倡使用weight权重，因为这样会在加载布局时造成大量的计算，影响性能。</p>
+<h3 id="Android-Percent-Support-Lib"><a href="#Android-Percent-Support-Lib" class="headerlink" title="Android Percent Support Lib"></a><a href="http://http://blog.csdn.net/u014784379/article/details/46754189" target="_blank" rel="external">Android Percent Support Lib</a></h3><p>还有就是谷歌官方推出了类似于CSS的百分比来布局的库（<code>Android Percent Support Lib</code>）：</p>
+<p>如何使用</p>
+<p>首先需要满足如下要求：</p>
+<p>Android SDK v22<br>Android Build Tools v22.0.1<br>Android Percent Support Repository v22.2.0<br>Android Support v4 Repository v22.2.0</p>
+<p>然后在<code>build.gradle</code>中添加：</p>
+<pre><code>dependencies {
+    compile &apos;com.android.support:percent:22.2.0&apos;
+}
+</code></pre><p>以后补充个，使用百分比适配库的</p>
+<h3 id="屏幕适配："><a href="#屏幕适配：" class="headerlink" title="屏幕适配："></a>屏幕适配：</h3><p>2014年初，6个主流的分辨率：</p>
+<ul>
+<li>480x680</li>
+<li>720x1280</li>
+<li>320x480</li>
+<li>480x854</li>
+<li>540x960</li>
+<li>1080x1920</li>
+</ul>
+<p>屏幕尺寸：1英寸=2.54厘米</p>
+<p>屏幕分辨率：分辨率是指在横纵向上的像素点数，单位是<code>px</code>，1px=1个像素点</p>
+<p><code>px</code>：获取屏幕宽高，写布局时尽量用dp而不是px</p>
+<p>PS:160为基础，1dip=1px，如果是320dip则1dip=2px</p>
+<p>对于5种主流的像素密度：</p>
+<ul>
+<li>MDPI</li>
+<li>HDPI</li>
+<li>XHDPI</li>
+<li>XXHDPI</li>
+<li>XXXHDPI</li>
+</ul>
+<p>按照2:3:4:6:8的比例进行缩放<br>其中LDPI是低像素</p>
+<h3 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h3><ol>
+<li>使用wrap_content,math_parent,weight</li>
+<li>使用布局别名：即在手机上显示单面板，在平板上显示双面板</li>
+<li>使用自动拉伸图.9png图，现在谷歌官方支持使用<code>SVG</code>图片</li>
+<li>使用dp和sp</li>
+<li>提供备用位图</li>
+<li>动态设置，获取屏幕参数</li>
+<li>当分辨率不同时，不能使用px</li>
+<li>因为屏幕宽度不一样，所以要小心使用dp</li>
+</ol>
+<h3 id="关于高清设计图尺寸"><a href="#关于高清设计图尺寸" class="headerlink" title="关于高清设计图尺寸"></a>关于高清设计图尺寸</h3><ol>
+<li>以mdpi为设计，然后放大图片到各个分辨率</li>
+<li>以高分辨率为基础，对低分辨率进行缩放，可以以1280x720，1960x1080为主要分辨进行设计</li>
+<li>ImagView 的ScaleType，设置不同的ScaleType会得到不同的显示效果，一般情况下，设置centerCrop能获得更好的适配效果</li>
+</ol>
+</div>
+
+            
+<nav class="post-nav flex-row">
+  <div class="flex-col waves-block prev">
+    
+      <a href="/2016/04/11/android中MVP的实践/" title="android中MVP的实践" id="post-prev" class="post-nav-link">
+        <i class="icon icon-chevron-left"></i>
+        <span class="article-nav-title">上一篇</span>
+      </a>
+    
+  </div>
+  <div class="flex-col waves-block next">
+    
+      <a href="/2015/09/08/android系统特性与平台架构/" title="android系统特性与平台架构" id="post-next" class="post-nav-link">
+        <span class="article-nav-title">下一篇</span>
+        <i class="icon icon-chevron-right"></i>
+      </a>
+    
+  </div>
+
+</nav>
+
+
+
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="Android中的布局和适配" data-title="Android中的布局和适配" data-url="http://www.codingevo.com/2015/10/16/Android中的布局和适配/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"ysblog"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    
+
+  </article>
+
+
+
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-circle-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<div class="global-share" id="global-share" data-title="Android中的布局和适配" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/10/16/Android中的布局和适配/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

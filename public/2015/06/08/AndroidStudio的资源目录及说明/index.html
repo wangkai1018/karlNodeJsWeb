@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>AndroidStudio的资源目录及说明 | Coding Evo | karlwk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="android,Android studio">
+  <meta name="description" content="AndroidStudio以下简称AS,因为as和eclipse目录有些区别，所以记录一下
+as中没有assets目录，要用的话可以手动创建##图片资源：
+在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持drawable:存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件mipmap-hdpi:高">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AndroidStudio的资源目录及说明">
+<meta property="og:url" content="http://www.codingevo.com/2015/06/08/AndroidStudio的资源目录及说明/index.html">
+<meta property="og:site_name" content="Coding Evo">
+<meta property="og:description" content="AndroidStudio以下简称AS,因为as和eclipse目录有些区别，所以记录一下
+as中没有assets目录，要用的话可以手动创建##图片资源：
+在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持drawable:存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件mipmap-hdpi:高">
+<meta property="og:updated_time" content="2016-04-08T13:53:28.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AndroidStudio的资源目录及说明">
+<meta name="twitter:description" content="AndroidStudio以下简称AS,因为as和eclipse目录有些区别，所以记录一下
+as中没有assets目录，要用的话可以手动创建##图片资源：
+在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持drawable:存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件mipmap-hdpi:高">
+  
+    <link rel="alternative" href="/atom.xml" title="Coding Evo" type="application/atom+xml">
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu" class="hide" >
+   <div class="inner">
+  <a href="javascript:;" class="header-icon waves-circle-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.png"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">karlwk</h5>
+        <a href="mailto:karlwk@codingevo.com" title="karlwk@codingevo.com" class="mail">karlwk@codingevo.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav">
+    
+        <li class="waves-block">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            主页
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            Archives
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/tags"  >
+            <i class="icon icon-lg icon-tags"></i>
+            Tags
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="https://github.com/wangkai1018" target="_blank" >
+            <i class="icon icon-lg icon-github"></i>
+            Github
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="http://weibo.com/u/1834790680" target="_blank" >
+            <i class="icon icon-lg icon-weibo"></i>
+            Weibo
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>Coding Evo &copy; 2018</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-circle-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">AndroidStudio的资源目录及说明</div>
+        
+        <a href="javascript:;" class="header-icon waves-circle-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">AndroidStudio的资源目录及说明</h1>
+    <h5 class="subtitle">2015-06-08</h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      
+  <article id="post-AndroidStudio的资源目录及说明" class="article article-type-post" itemscope itemprop="blogPost">
+    
+      <div class="post-meat flex-row">
+        <div class="flex-col">
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android-studio/">Android studio</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/android/">android</a></li></ul>
+</div>
+      </div>
+      <div class="post-body">
+
+        <aside class="post-widget" id="post-widget">
+
+          
+          <div class="post-share" id="post-share" data-title="AndroidStudio的资源目录及说明" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/06/08/AndroidStudio的资源目录及说明/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+          
+
+          
+          <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#as中没有assets目录，要用的话可以手动创建"><span class="post-toc-text">as中没有assets目录，要用的话可以手动创建</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持"><span class="post-toc-text">在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#drawable-存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件"><span class="post-toc-text">drawable:存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#mipmap-hdpi-高分辨率，一般我们把图片放在这里"><span class="post-toc-text">mipmap-hdpi:高分辨率，一般我们把图片放在这里</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#mipmap-mdpi-中等分辨率，很少，除非兼容的手机很老。"><span class="post-toc-text">mipmap-mdpi:中等分辨率，很少，除非兼容的手机很老。</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#mipmap-xhdpi-超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡"><span class="post-toc-text">mipmap-xhdpi:超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#mipmap-xxhdpi-超超高分辨率，这个在高端机上有所体现"><span class="post-toc-text">mipmap-xxhdpi:超超高分辨率，这个在高端机上有所体现</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#布局资源：layout-存储布局文件，在特定的机型上：例如：layout-480x320的文件夹"><span class="post-toc-text">布局资源：layout: 存储布局文件，在特定的机型上：例如：layout-480x320的文件夹</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#菜单资源："><span class="post-toc-text">菜单资源：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#menu：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。"><span class="post-toc-text">menu：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#values目录："><span class="post-toc-text">values目录：</span></a>
+          </nav>
+          
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" itemprop="postContent"><p>AndroidStudio以下简称AS,因为as和eclipse目录有些区别，所以记录一下</p>
+<h3 id="as中没有assets目录，要用的话可以手动创建"><a href="#as中没有assets目录，要用的话可以手动创建" class="headerlink" title="as中没有assets目录，要用的话可以手动创建"></a>as中没有<code>assets</code>目录，要用的话可以手动创建</h3><p>##图片资源：</p>
+<h4 id="在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持"><a href="#在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持" class="headerlink" title="在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持"></a>在<code>eclipse</code>中是<code>drawable</code>打头的。在AS中是<code>mipmap</code>开头的。mipmap会在图片缩放时提供一些性能支持</h4><h3 id="drawable-存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件"><a href="#drawable-存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件" class="headerlink" title="drawable:存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件"></a><code>drawable</code>:存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件</h3><h3 id="mipmap-hdpi-高分辨率，一般我们把图片放在这里"><a href="#mipmap-hdpi-高分辨率，一般我们把图片放在这里" class="headerlink" title="mipmap-hdpi:高分辨率，一般我们把图片放在这里"></a><code>mipmap-hdpi</code>:高分辨率，一般我们把图片放在这里</h3><h3 id="mipmap-mdpi-中等分辨率，很少，除非兼容的手机很老。"><a href="#mipmap-mdpi-中等分辨率，很少，除非兼容的手机很老。" class="headerlink" title="mipmap-mdpi:中等分辨率，很少，除非兼容的手机很老。"></a><code>mipmap-mdpi</code>:中等分辨率，很少，除非兼容的手机很老。</h3><h3 id="mipmap-xhdpi-超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡"><a href="#mipmap-xhdpi-超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡" class="headerlink" title="mipmap-xhdpi:超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡"></a><code>mipmap-xhdpi</code>:超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡</h3><h3 id="mipmap-xxhdpi-超超高分辨率，这个在高端机上有所体现"><a href="#mipmap-xxhdpi-超超高分辨率，这个在高端机上有所体现" class="headerlink" title="mipmap-xxhdpi:超超高分辨率，这个在高端机上有所体现"></a><code>mipmap-xxhdpi</code>:超超高分辨率，这个在高端机上有所体现</h3><h3 id="布局资源：layout-存储布局文件，在特定的机型上：例如：layout-480x320的文件夹"><a href="#布局资源：layout-存储布局文件，在特定的机型上：例如：layout-480x320的文件夹" class="headerlink" title="布局资源：layout: 存储布局文件，在特定的机型上：例如：layout-480x320的文件夹"></a><code>布局资源：layout</code>: 存储布局文件，在特定的机型上：例如：<code>layout-480x320</code>的文件夹</h3><h3 id="菜单资源："><a href="#菜单资源：" class="headerlink" title="菜单资源："></a>菜单资源：</h3><h3 id="menu：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。"><a href="#menu：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。" class="headerlink" title="menu：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。"></a><code>menu</code>：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。</h3><h2 id="values目录："><a href="#values目录：" class="headerlink" title="values目录："></a>values目录：</h2><ul>
+<li><code>demens</code>:定义尺寸资源</li>
+<li><code>string</code>：定义字符串资源</li>
+<li><code>style</code>：定义样式资源</li>
+<li><code>colors</code>：定义颜色资源</li>
+<li><code>attrs</code>：自定义控件时用的较多，自定义控件属性。</li>
+<li><p><code>theme</code>:主题文件，和style相似，但是会对应用中的activity和制定activity起作用，一般是改变窗口外观的。可在java代码中通过setTheme使用，或者在AndroidManifest中的application比傲天添加theme属性。PS:你可以看到这样的目录，values-w820dp,values-v11,前者代表平板设备，820dp代表屏幕宽度，而v11代表AIP11，即3.0之后才能使用。</p>
+</li>
+<li><p><code>raw</code>:用于存放各种原生资源(音频,视频,xml文件)<br>我们可以通过OpenRawResource(Int id) 来获得二进制流，其实和Assets差不多，不过raw可以在R文件中生成一个唯一的资源标识符id而已</p>
+</li>
+<li><p><code>animator</code>:存放属性动画的xml文件</p>
+</li>
+<li><code>anim</code>：存放补间动画的xml文件</li>
+</ul>
+</div>
+
+            
+<nav class="post-nav flex-row">
+  <div class="flex-col waves-block prev">
+    
+      <a href="/2015/06/09/AndroidStudio必备插件/" title="AndroidStudio必备插件" id="post-prev" class="post-nav-link">
+        <i class="icon icon-chevron-left"></i>
+        <span class="article-nav-title">上一篇</span>
+      </a>
+    
+  </div>
+  <div class="flex-col waves-block next">
+    
+      <a href="/2015/03/11/vim常用命令/" title="vim常用命令" id="post-next" class="post-nav-link">
+        <span class="article-nav-title">下一篇</span>
+        <i class="icon icon-chevron-right"></i>
+      </a>
+    
+  </div>
+
+</nav>
+
+
+
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="AndroidStudio的资源目录及说明" data-title="AndroidStudio的资源目录及说明" data-url="http://www.codingevo.com/2015/06/08/AndroidStudio的资源目录及说明/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"ysblog"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    
+
+  </article>
+
+
+
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-circle-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<div class="global-share" id="global-share" data-title="AndroidStudio的资源目录及说明" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/06/08/AndroidStudio的资源目录及说明/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

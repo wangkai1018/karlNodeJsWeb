@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Coding Evo]]></title>
+  <subtitle><![CDATA[karlwk]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://www.codingevo.com/"/>
+  <updated>2018-02-19T04:46:14.376Z</updated>
+  <id>http://www.codingevo.com/</id>
+  
+  <author>
+    <name><![CDATA[karlwk]]></name>
+    <email><![CDATA[karlwk@codingevo.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[消防安全技术实务基础概念]]></title>
+    <link href="http://www.codingevo.com/2018/02/17/%E6%B6%88%E9%98%B2%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF%E5%AE%9E%E5%8A%A1%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/"/>
+    <id>http://www.codingevo.com/2018/02/17/消防安全技术实务基础概念/</id>
+    <published>2018-02-17T02:03:22.000Z</published>
+    <updated>2018-02-19T04:46:14.376Z</updated>
+    <content type="html"><![CDATA[<h1 id="消防安全技术实务基础概念集锦"><a href="#消防安全技术实务基础概念集锦" class="headerlink" title="消防安全技术实务基础概念集锦"></a>消防安全技术实务基础概念集锦</h1><h3 id="建筑的分类"><a href="#建筑的分类" class="headerlink" title="建筑的分类"></a>建筑的分类</h3><p>可用两种方式进行划分：</p>
+<ul>
+<li>性质：<ul>
+<li>民用建筑：即非生产性建筑，指供人们居住和进行公共活动的建筑，可分为：<ul>
+<li>公共建筑</li>
+<li>住宅建筑</li>
+</ul>
+</li>
+<li>工业建筑：指工业生产性建筑，分为：<ul>
+<li>厂房</li>
+<li>仓库</li>
+</ul>
+</li>
+<li>农用建筑 :指供人们进行农牧业种植、养殖、储存等多用途的建筑</li>
+</ul>
+</li>
+<li>高度：<ul>
+<li>单多层建筑：<ul>
+<li>建筑高度<strong>27m以下</strong>的<strong>住宅建筑</strong></li>
+<li>建筑高度<strong>不超过24m</strong>（<strong>或已超过24m，但为单层</strong>）的<strong>公共建筑</strong>和<strong>工业建筑</strong></li>
+</ul>
+</li>
+<li>高层建筑：<ul>
+<li>建筑高度<strong>大于27m</strong>的<strong>住宅建筑</strong></li>
+<li>建筑高度<strong>大于24m</strong>的<strong>非单层建筑</strong></li>
+</ul>
+</li>
+<li>超高层建筑：建筑高度<strong>超过100m</strong>的<strong>高层建筑</strong>  </li>
+</ul>
+</li>
+</ul>
+<h4 id="建筑分类备注"><a href="#建筑分类备注" class="headerlink" title="建筑分类备注"></a>建筑分类备注</h4><ol>
+<li>按性质划分，可简单记忆为“<strong>农民工</strong>”</li>
+<li>超高层建筑的概念只在<strong>中国</strong>有</li>
+</ol>
+<h3 id="裙房"><a href="#裙房" class="headerlink" title="裙房"></a>裙房</h3><p>在高层建筑主体投影外，与建筑主体相连<strong>且建筑高度</strong>不大于24m的建筑<br><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E8%A3%99%E6%88%BF1.png" alt="裙房1"> </p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E8%A3%99%E6%88%BF2.png" alt="裙房2"></p>
+<h3 id="商业服务网点"><a href="#商业服务网点" class="headerlink" title="商业服务网点"></a>商业服务网点</h3><p>设置在<strong>住宅建筑</strong>的<strong>首层</strong>或<strong>首层及二层</strong>，<strong>每个</strong>分割单元建筑面积<strong>不大于300㎡</strong>的<strong>商店</strong>、<strong>邮政所</strong>、<strong>理发店</strong>等小型营业性用房<br><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E5%95%86%E4%B8%9A%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%82%B91.png" alt="商业服务网点1"></p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E5%95%86%E4%B8%9A%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%82%B92.png" alt="商业服务网点2"></p>
+<h3 id="高架仓库"><a href="#高架仓库" class="headerlink" title="高架仓库"></a>高架仓库</h3><p>货架高度<strong>大于7m</strong>且采用<strong>机械化</strong>操作或<strong>自动化</strong>控制的货架仓库<br><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E9%AB%98%E6%9E%B6%E4%BB%93%E5%BA%93.png" alt="高架仓库"></p>
+<h3 id="半地下室"><a href="#半地下室" class="headerlink" title="半地下室"></a>半地下室</h3><p>房间室内地面<strong>低于</strong>室外设计地面的平均高度<strong>大于</strong>该房间平均净高的<strong>⅓</strong>，且<strong>不大于½</strong></p>
+<h3 id="地下室"><a href="#地下室" class="headerlink" title="地下室"></a>地下室</h3><p>是指房间地面<strong>低于</strong>室外地平面的高度<strong>超过该房间净高的½</strong></p>
+<h3 id="坡屋顶"><a href="#坡屋顶" class="headerlink" title="坡屋顶"></a>坡屋顶</h3><p>又叫斜屋顶。是指排水坡度一般大于3%的屋顶；常见的有单坡、双坡、四坡、折腰式；其中双破和四坡采用的比较多<br><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E5%9D%A1%E5%B1%8B%E9%A1%B61.png" alt="坡屋顶1"></p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E5%9D%A1%E5%B1%8B%E9%A1%B62.png" alt="坡屋顶2"></p>
+<h3 id="平屋顶"><a href="#平屋顶" class="headerlink" title="平屋顶"></a>平屋顶</h3><p>平屋顶屋面比较平缓，坡度小于5%</p>
+<h3 id="天窗"><a href="#天窗" class="headerlink" title="天窗"></a>天窗</h3><p>设在屋顶上用于通风和透光的窗子<br><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E5%A4%A9%E7%AA%97.png" alt="天窗"></p>
+<h3 id="老虎窗"><a href="#老虎窗" class="headerlink" title="老虎窗"></a>老虎窗</h3><p>又称老虎天窗，是指一种开在屋顶上的天窗。就是在斜屋面上凸出的窗，用作屋顶部的采光和通风<img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E8%80%81%E8%99%8E%E7%AA%97.png" alt="老虎窗"></p>
+<h3 id="伸缩缝"><a href="#伸缩缝" class="headerlink" title="伸缩缝"></a>伸缩缝</h3><p>指为防止建筑物中构建由于气温变化（热胀冷缩）使结构产生裂缝或破坏而沿建筑物或者构筑物施工缝方向的适当部位设置的一条构造缝</p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E4%BC%B8%E7%BC%A9%E7%BC%9D.png" alt="伸缩缝"></p>
+<h3 id="沉降缝"><a href="#沉降缝" class="headerlink" title="沉降缝"></a>沉降缝</h3><p>为防止建筑物各部分由于地基不均匀沉降引起房屋破坏所设的垂直缝（从建筑物基础贯穿到屋顶），竖直方向</p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E6%B2%89%E9%99%8D%E7%BC%9D.png" alt="沉降缝"></p>
+<h3 id="防震缝"><a href="#防震缝" class="headerlink" title="防震缝"></a>防震缝</h3><p>指地震区设计房屋时，为防止地震使房屋破坏，应用防震缝将房屋分成若干形体简单、结构刚度均匀的独立部分。为减轻或防止相邻结构单元由地震作用引起的碰撞而预先设置的间隙<br><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E9%98%B2%E9%9C%87%E7%BC%9D.png" alt="防震缝"></p>
+<h3 id="变形缝"><a href="#变形缝" class="headerlink" title="变形缝"></a>变形缝</h3><p>是伸缩缝、沉降缝和防震缝的总称。建筑物在外接因素作用下常会产生变形，导致开裂甚至破坏。变形缝是针对这种情况下而预留的构造缝</p>
+<h3 id="开口部位"><a href="#开口部位" class="headerlink" title="开口部位"></a>开口部位</h3><p>屋顶的天窗、墙面上的窗户</p>
+<h3 id="防火堤"><a href="#防火堤" class="headerlink" title="防火堤"></a>防火堤</h3><p>在油罐和其他业态危险品储罐发生泄漏事故时，防止液体外流和火势蔓延的构筑物</p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E9%98%B2%E7%81%AB%E5%A0%A4.png" alt="防火堤"></p>
+<h3 id="中庭"><a href="#中庭" class="headerlink" title="中庭"></a>中庭</h3><p>建筑内部的“室外空间”</p>
+<h3 id="袋形走道"><a href="#袋形走道" class="headerlink" title="袋形走道"></a>袋形走道</h3><p>是指只有<strong>一个</strong>安全疏散出口，类似于布袋的走道。走廊的尽头没有出路，想出来得原路返回。多层建筑和高层建筑队袋形走道的疏散距离不一样</p>
+<h3 id="建筑标高"><a href="#建筑标高" class="headerlink" title="建筑标高"></a>建筑标高</h3><p>建筑标高是相对标高，凡是包括装饰层厚度的标高，称为<strong>建筑标高</strong>。注写在构件的装饰层面上，也叫<strong>面层标高</strong>。也即是装饰装修完成后的标高。</p>
+<h3 id="结构标高"><a href="#结构标高" class="headerlink" title="结构标高"></a>结构标高</h3><p>为装饰<strong>装修前</strong>的标高。结构标高一般比建筑标高矮。结构标高是这个结构到这个标高位置就停了，不在往上继续做了。但是结构上面还有一些建筑的装饰或者管线排线之类的</p>
+<h3 id="女儿墙"><a href="#女儿墙" class="headerlink" title="女儿墙"></a>女儿墙</h3><p>又名孙女墙。是建筑物屋顶四周围的矮墙。主要作用除维护安全外，亦会在抵触施作防水压砖收头。以避免防水层渗水，或是屋顶雨水浸流。女儿墙的高度<strong>不能</strong>计算在建筑的高度范围内</p>
+<h3 id="门斗"><a href="#门斗" class="headerlink" title="门斗"></a>门斗</h3><p>门斗是房屋或室厅的入口处设置一个必经的小间，有<strong>保温隔热</strong>的作用，防止在打开外门时冷或热空气直接侵入室内，利于<strong>空调节能</strong>。门斗常见于我国的北方</p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E9%97%A8%E6%96%97.png" alt="门斗"></p>
+<h3 id="自动扶梯"><a href="#自动扶梯" class="headerlink" title="自动扶梯"></a>自动扶梯</h3><p>也叫电动扶梯</p>
+<h3 id="剪刀扶梯"><a href="#剪刀扶梯" class="headerlink" title="剪刀扶梯"></a>剪刀扶梯</h3><p>也可以称为叠合楼梯、交叉楼梯或套梯。是同一个楼梯间设置一对相互重叠，又互不相同的两个楼梯。一般出现在高层建筑内，比较<strong>节省空间</strong>，两边互不干扰</p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E5%89%AA%E5%88%80%E6%A5%BC%E6%A2%AF.png" alt="剪刀楼梯"></p>
+<h3 id="中间仓库"><a href="#中间仓库" class="headerlink" title="中间仓库"></a>中间仓库</h3><p>指为满足日常连续生产需要，在厂房内存放从<strong>仓库</strong>或<strong>上道工序</strong>的<strong>厂房</strong>或<strong>车间</strong></p>
+<h3 id="消防水泵房"><a href="#消防水泵房" class="headerlink" title="消防水泵房"></a>消防水泵房</h3><p>凡担当消防供水任务的水泵房均称之为消防水泵房。按作用分为<strong>取水泵房</strong>、<strong>送水泵房</strong>、<strong>加压泵房</strong>。按使用目的划分为<strong>生活、生产、消防合用泵房</strong>（如<strong>水厂</strong>）。<strong>生产、消防合用泵房</strong>（如<strong>工业企业内部</strong>）。<strong>生活、消防合用泵房</strong>（如<strong>民用建筑</strong>内）。<strong>独立的消防水泵房（如油罐区）</strong></p>
+<h3 id="干式变压器"><a href="#干式变压器" class="headerlink" title="干式变压器"></a>干式变压器</h3><p>局部照明。高层建筑、机场、码头CNC机械设备变压器。结构更合理、性能更优异，适用于城乡、工矿企业电网改造</p>
+<h3 id="排烟风机"><a href="#排烟风机" class="headerlink" title="排烟风机"></a>排烟风机</h3><p><strong>隧道区间、地铁区间</strong>内用消防排烟风机应在<strong>不低于250℃</strong>气流通过时连续运转<strong>60min</strong>无异常现象。其他建筑物用消防排烟风机应在<strong>不低于280℃</strong>气流通过时连续运转<strong>30min</strong>无异常现象</p>
+<h3 id="风管"><a href="#风管" class="headerlink" title="风管"></a>风管</h3><p>用于空气输送和分布的管道系统。可分为圆形管道、矩形风管、扁圆风管等多种</p>
+<h3 id="补风"><a href="#补风" class="headerlink" title="补风"></a>补风</h3><p>属于通风系统。在机械通风中一般采用机械排风，自然补风。当自然补风不能满足的时候，要机械排风。汽车库内无直接通向室外的汽车疏散口的防火分区。当设置机械排烟系统时应<strong>同时设置</strong>进风系统，且送风量<strong>不宜小于</strong>排烟量的<strong>50%</strong></p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E8%A1%A5%E9%A3%8E.png" alt="补风"></p>
+<h3 id="加压送风机"><a href="#加压送风机" class="headerlink" title="加压送风机"></a>加压送风机</h3><p>正压送风机是指向逃生楼道里送风的风机。将室外风压送入室内。当发生火灾时，会产生大量的烟雾、一氧化碳等有毒气体，并遮挡视线。通过正压送风机给逃生的消防楼梯送风，<strong>使烟雾不能抵达楼梯</strong>，给人们逃生创造条件。装于屋顶，与各层的正压送风阀联动</p>
+<h3 id="风道"><a href="#风道" class="headerlink" title="风道"></a>风道</h3><p>采用混凝土、砖等材料砌筑而成，用于空气流通，接入风道时，都要添加防火阀</p>
+<h3 id="挡烟垂壁"><a href="#挡烟垂壁" class="headerlink" title="挡烟垂壁"></a>挡烟垂壁</h3><p>用不燃材料制成，从顶棚<strong>下垂不小于500mm</strong>的固定或活动的挡烟措施。主要用于<strong>高层</strong>或超高层<strong>大型商场、写字楼、以及仓库</strong>。有效<strong>阻挡</strong>烟雾在建筑顶棚下<strong>横向流动</strong>，以利于提高在防烟分区内的排烟效果，对保障人民生命财产安全起到积极的作用</p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E6%8C%A1%E7%83%9F%E5%9E%82%E5%A3%811.png" alt="挡烟垂壁1"></p>
+<p><img src="http://7xst5r.com1.z0.glb.clouddn.com/XF%E6%8C%A1%E7%83%9F%E5%9E%82%E5%A3%812.png" alt="挡烟垂壁2"></p>
+<h3 id="防烟分区和防火分区"><a href="#防烟分区和防火分区" class="headerlink" title="防烟分区和防火分区"></a>防烟分区和防火分区</h3><p>防烟分区<strong>不允许</strong>跨越防火分区</p>
+<h3 id="防火墙"><a href="#防火墙" class="headerlink" title="防火墙"></a>防火墙</h3><p>防止火灾蔓延至其他建筑或相邻的防火分区，耐火极限<strong>不低于3.0h</strong></p>
+<h3 id="防火隔墙"><a href="#防火隔墙" class="headerlink" title="防火隔墙"></a>防火隔墙</h3><p>防止火灾蔓延至相邻区域，耐火极限<strong>2-3h</strong></p>
+<h3 id="防火墙和防火隔墙的区别"><a href="#防火墙和防火隔墙的区别" class="headerlink" title="防火墙和防火隔墙的区别"></a>防火墙和防火隔墙的区别</h3><ol>
+<li>耐火极限不同</li>
+<li>前者比后者级别高</li>
+<li>砌筑方式：防火墙从<strong>地基</strong>开始砌筑的。</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="消防安全技术实务基础概念集锦"><a href="#消防安全技术实务基础概念集锦" class="headerlink" title="消防安全技术实务基础概念集锦"></a>消防安全技术实务基础概念集锦</h1><h3 id="建筑的分类"><a href="#]]>
+    </summary>
+    
+      <category term="注册消防工程师" scheme="http://www.codingevo.com/tags/%E6%B3%A8%E5%86%8C%E6%B6%88%E9%98%B2%E5%B7%A5%E7%A8%8B%E5%B8%88/"/>
+    
+      <category term="技术实务" scheme="http://www.codingevo.com/tags/%E6%8A%80%E6%9C%AF%E5%AE%9E%E5%8A%A1/"/>
+    
+      <category term="基础概念" scheme="http://www.codingevo.com/tags/%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[MacDown帮助文档]]></title>
+    <link href="http://www.codingevo.com/2018/02/14/MacDown%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/"/>
+    <id>http://www.codingevo.com/2018/02/14/MacDown帮助文档/</id>
+    <published>2018-02-14T14:06:46.000Z</published>
+    <updated>2018-02-14T14:10:38.094Z</updated>
+    <content type="html"><![CDATA[<h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><h1 id="MacDown"><a href="#MacDown" class="headerlink" title="MacDown"></a>MacDown</h1><p><img src="http://macdown.uranusjr.com/static/images/logo-160.png" alt="MacDown logo"></p>
+<p>Hello there! I’m <strong>MacDown</strong>, the open source Markdown editor for OS X.</p>
+<p>Let me introduce myself.</p>
+<h2 id="Markdown-and-I"><a href="#Markdown-and-I" class="headerlink" title="Markdown and I"></a>Markdown and I</h2><p><strong>Markdown</strong> is a plain text formatting syntax created by John Gruber, aiming to provide a easy-to-read and feasible markup. The original Markdown syntax specification can be found <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">here</a>.</p>
+<p><strong>MacDown</strong> is created as a simple-to-use editor for Markdown documents. I render your Markdown contents real-time into HTML, and display them in a preview panel.</p>
+<p><img src="http://d.pr/i/10UGP+" alt="MacDown Screenshot"></p>
+<p>I support all the original Markdown syntaxes. But I can do so much more! Various popular but non-standard syntaxes can be turned on/off from the <a href="#markdown-pane"><strong>Markdown</strong> preference pane</a>.</p>
+<p>You can specify extra HTML rendering options through the <a href="#rendering-pane"><strong>Rendering</strong> preference pane</a>.</p>
+<p>You can customize the editor window to you liking in the <a href="#editor-pane"><strong>Editor</strong> preferences pane</a>:</p>
+<p>You can configure various application (that’s me!) behaviors in the <a href="#general-pane"><strong>General</strong> preference pane</a>.</p>
+<h2 id="The-Basics"><a href="#The-Basics" class="headerlink" title="The Basics"></a>The Basics</h2><p>Before I tell you about all the extra syntaxes and capabilities I have, I’ll introduce you to the basics of standard markdown. If you already know markdown, and want to jump straight to learning about the fancier things I can do, I suggest you skip to the <a href="#markdown-pane"><strong>Markdown</strong> preference pane</a>. Lets jump right in.  </p>
+<h3 id="Line-Breaks"><a href="#Line-Breaks" class="headerlink" title="Line Breaks"></a>Line Breaks</h3><p>To force a line break, put two spaces and a newline (return) at the end of the line.</p>
+<ul>
+<li><p>This two-line bullet<br>won’t break</p>
+</li>
+<li><p>This two-line bullet<br>will break</p>
+</li>
+</ul>
+<p>Here is the code:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">* This two-line bullet </span><br><span class="line">won&apos;t break</span><br><span class="line"></span><br><span class="line">* This two-line bullet  </span><br><span class="line">will break</span><br></pre></td></tr></table></figure>
+<h3 id="Strong-and-Emphasize"><a href="#Strong-and-Emphasize" class="headerlink" title="Strong and Emphasize"></a>Strong and Emphasize</h3><p><strong>Strong</strong>: <code>**Strong**</code> or <code>__Strong__</code> (Command-B)<br><em>Emphasize</em>: <code>*Emphasize*</code> or <code>_Emphasize_</code>[^emphasize] (Command-I)</p>
+<h3 id="Headers-like-this-one"><a href="#Headers-like-this-one" class="headerlink" title="Headers (like this one!)"></a>Headers (like this one!)</h3><pre><code>Header 1
+========
+
+Header 2
+--------
+</code></pre><p>or</p>
+<pre><code># Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+</code></pre><h3 id="Links-and-Email"><a href="#Links-and-Email" class="headerlink" title="Links and Email"></a>Links and Email</h3><h4 id="Inline"><a href="#Inline" class="headerlink" title="Inline"></a>Inline</h4><p>Just put angle brackets around an email and it becomes clickable: <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#x75;&#x72;&#97;&#x6e;&#117;&#115;&#x6a;&#x72;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#x75;&#x72;&#97;&#x6e;&#117;&#115;&#x6a;&#x72;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a><br><code>&lt;uranusjr@gmail.com&gt;</code>  </p>
+<p>Same thing with urls: <a href="http://macdown.uranusjr.com" target="_blank" rel="external">http://macdown.uranusjr.com</a><br><code>&lt;http://macdown.uranusjr.com&gt;</code>  </p>
+<p>Perhaps you want to some link text like this: <a href="http://macdown.uranusjr.com" title="Title" target="_blank" rel="external">Macdown Website</a><br><code>[Macdown Website](http://macdown.uranusjr.com &quot;Title&quot;)</code> (The title is optional)  </p>
+<h4 id="Reference-style"><a href="#Reference-style" class="headerlink" title="Reference style"></a>Reference style</h4><p>Sometimes it looks too messy to include big long urls inline, or you want to keep all your urls together.  </p>
+<p>Make <a href="http://macdown.uranusjr.com" title="Title" target="_blank" rel="external">a link</a> <code>[a link][arbitrary_id]</code> then on it’s own line anywhere else in the file:<br><code>[arbitrary_id]: http://macdown.uranusjr.com &quot;Title&quot;</code></p>
+<p>If the link text itself would make a good id, you can link <a href="http://macdown.uranusjr.com" target="_blank" rel="external">like this</a> <code>[like this][]</code>, then on it’s own line anywhere else in the file:<br><code>[like this]: http://macdown.uranusjr.com</code>  </p>
+<h3 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h3><h4 id="Inline-1"><a href="#Inline-1" class="headerlink" title="Inline"></a>Inline</h4><p><code>![Alt Image Text](path/or/url/to.jpg &quot;Optional Title&quot;)</code></p>
+<h4 id="Reference-style-1"><a href="#Reference-style-1" class="headerlink" title="Reference style"></a>Reference style</h4><p><code>![Alt Image Text][image-id]</code><br>on it’s own line elsewhere:<br><code>[image-id]: path/or/url/to.jpg &quot;Optional Title&quot;</code></p>
+<h3 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h3><ul>
+<li>Lists must be preceded by a blank line (or block element)</li>
+<li>Unordered lists start each item with a <code>*</code></li>
+</ul>
+<ul>
+<li><code>-</code> works too<ul>
+<li>Indent a level to make a nested list<ol>
+<li>Ordered lists are supported.</li>
+<li>Start each item (number-period-space) like <code>1.</code></li>
+<li>It doesn’t matter what number you use, I will render them sequentially</li>
+<li>So you might want to start each line with <code>1.</code> and let me sort it out</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<p>Here is the code:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">* Lists must be preceded by a blank line (or block element)</span><br><span class="line">* Unordered lists start each item with a `*`</span><br><span class="line">- `-` works too</span><br><span class="line">	* Indent a level to make a nested list</span><br><span class="line">		1. Ordered lists are supported.</span><br><span class="line">		2. Start each item (number-period-space) like `1. `</span><br><span class="line">		42. It doesn&apos;t matter what number you use, I will render them sequentially</span><br><span class="line">		1. So you might want to start each line with `1.` and let me sort it out</span><br></pre></td></tr></table></figure>
+<h3 id="Block-Quote"><a href="#Block-Quote" class="headerlink" title="Block Quote"></a>Block Quote</h3><blockquote>
+<p>Angle brackets <code>&gt;</code> are used for block quotes.<br>Technically not every line needs to start with a <code>&gt;</code> as long as<br>there are no empty lines between paragraphs.<br>Looks kinda ugly though.</p>
+<blockquote>
+<p>Block quotes can be nested.  </p>
+<blockquote>
+<p>Multiple Levels</p>
+</blockquote>
+</blockquote>
+<p>Most markdown syntaxes work inside block quotes.</p>
+<ul>
+<li>Lists</li>
+<li><a href="http://macdown.uranusjr.com" title="Title" target="_blank" rel="external">Links</a></li>
+<li>Etc.</li>
+</ul>
+</blockquote>
+<p>Here is the code:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&gt; Angle brackets `&gt;` are used for block quotes.  </span><br><span class="line">Technically not every line needs to start with a `&gt;` as long as</span><br><span class="line">there are no empty lines between paragraphs.  </span><br><span class="line">&gt; Looks kinda ugly though.</span><br><span class="line">&gt; &gt; Block quotes can be nested.  </span><br><span class="line">&gt; &gt; &gt; Multiple Levels</span><br><span class="line">&gt;</span><br><span class="line">&gt; Most markdown syntaxes work inside block quotes.</span><br><span class="line">&gt;</span><br><span class="line">&gt; * Lists</span><br><span class="line">&gt; * [Links][arbitrary_id]</span><br><span class="line">&gt; * Etc.</span><br></pre></td></tr></table></figure>
+<h3 id="Inline-Code"><a href="#Inline-Code" class="headerlink" title="Inline Code"></a>Inline Code</h3><p><code>Inline code</code> is indicated by surrounding it with backticks:<br><code>`Inline code` </code></p>
+<p>If your <code>code has `backticks` </code> that need to be displayed, you can use double backticks:<br><figure class="highlight plain"><figcaption><span>``Code with `backticks` `` ````  (mind the spaces preceding the final set of backticks)</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">### Block Code</span><br><span class="line">If you indent at least four spaces or one tab, I&apos;ll display a code block.</span><br><span class="line"></span><br><span class="line">	print(&apos;This is a code block&apos;)</span><br><span class="line">	print(&apos;The block must be preceded by a blank line&apos;)</span><br><span class="line">	print(&apos;Then indent at least 4 spaces or 1 tab&apos;)</span><br><span class="line">		print(&apos;Nesting does nothing. Your code is displayed Literally&apos;)</span><br><span class="line"></span><br><span class="line">I also know how to do something called [Fenced Code Blocks](#fenced-code-block) which I will tell you about later.</span><br><span class="line"></span><br><span class="line">### Horizontal Rules</span><br><span class="line">If you type three asterisks `***` or three dashes `---` on a line, I&apos;ll display a horizontal rule:</span><br><span class="line"></span><br><span class="line">***</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## &lt;a name=&quot;markdown-pane&quot;&gt;&lt;/a&gt;The Markdown Preference Pane</span><br><span class="line">This is where I keep all preferences related to how I parse markdown into html.  </span><br><span class="line">![Markdown preferences pane](http://d.pr/i/RQEi+)</span><br><span class="line"></span><br><span class="line">### Document Formatting</span><br><span class="line">The ***Smartypants*** extension automatically transforms straight quotes (`&quot;` and `&apos;`) in your text into typographer’s quotes (`“`, `”`, `‘`, and `’`) according to the context. Very useful if you’re a typography freak like I am. Quote and Smartypants are syntactically incompatible. If both are enabled, Quote takes precedence.</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### Block Formatting</span><br><span class="line"></span><br><span class="line">#### Table</span><br><span class="line"></span><br><span class="line">This is a table:</span><br><span class="line"></span><br><span class="line">First Header  | Second Header</span><br><span class="line">------------- | -------------</span><br><span class="line">Content Cell  | Content Cell</span><br><span class="line">Content Cell  | Content Cell</span><br><span class="line"></span><br><span class="line">You can align cell contents with syntax like this:</span><br><span class="line"></span><br><span class="line">| Left Aligned  | Center Aligned  | Right Aligned |</span><br><span class="line">|:------------- |:---------------:| -------------:|</span><br><span class="line">| col 3 is      | some wordy text |         $1600 |</span><br><span class="line">| col 2 is      | centered        |           $12 |</span><br><span class="line">| zebra stripes | are neat        |            $1 |</span><br><span class="line"></span><br><span class="line">The left- and right-most pipes (`|`) are only aesthetic, and can be omitted. The spaces don’t matter, either. Alignment depends solely on `:` marks.</span><br><span class="line"></span><br><span class="line">#### &lt;a name=&quot;fenced-code-block&quot;&gt;Fenced Code Block&lt;/a&gt;</span><br><span class="line"></span><br><span class="line">This is a fenced code block:</span><br></pre></td></tr></table></figure></p>
+<p>print(‘Hello world!’)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">You can also use waves (`~`) instead of back ticks (`` ` ``):</span><br><span class="line"></span><br><span class="line">~~~</span><br><span class="line">print(&apos;Hello world!&apos;)</span><br><span class="line">~~~</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">You can add an optional language ID at the end of the first line. The language ID will only be used to highlight the code inside if you tick the ***Enable highlighting in code blocks*** option. This is what happens if you enable it:</span><br><span class="line"></span><br><span class="line">![Syntax highlighting example](http://d.pr/i/9HM6+)</span><br><span class="line"></span><br><span class="line">I support many popular languages as well as some generic syntax descriptions that can be used if your language of choice is not supported. See [relevant sections on the official site](http://macdown.uranusjr.com/features/) for a full list of supported syntaxes.</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### Inline Formatting</span><br><span class="line"></span><br><span class="line">The following is a list of optional inline markups supported:</span><br><span class="line"></span><br><span class="line">Option name         | Markup           | Result if enabled     |</span><br><span class="line">--------------------|------------------|-----------------------|</span><br><span class="line">Intra-word emphasis | So A\*maz\*ing   | So A&lt;em&gt;maz&lt;/em&gt;ing   |</span><br><span class="line">Strikethrough       | \~~Much wow\~~   | &lt;del&gt;Much wow&lt;/del&gt;   |</span><br><span class="line">Underline [^under]  | \_So doge\_      | &lt;u&gt;So doge&lt;/u&gt;        |</span><br><span class="line">Quote [^quote]      | \&quot;Such editor\&quot;  | &lt;q&gt;Such editor&lt;/q&gt;    |</span><br><span class="line">Highlight           | \==So good\==    | &lt;mark&gt;So good&lt;/mark&gt;  |</span><br><span class="line">Superscript         | hoge\^(fuga)     | hoge&lt;sup&gt;fuga&lt;/sup&gt;   |</span><br><span class="line">Autolink            | http://t.co      | &lt;http://t.co&gt;         |</span><br><span class="line">Footnotes           | [\^4] and [\^4]: | [^4] and footnote 4   |</span><br><span class="line"></span><br><span class="line">[^4]: You don&apos;t have to use a number. Arbitrary things like `[^footy note4]` and `[^footy note4]:` will also work. But they will *render* as numbered footnotes. Also, no need to keep your footnotes in order, I will sort out the order for you so they appear in the same order they were referenced in the text body. You can even keep some footnotes near where you referenced them, and collect others at the bottom of the file in the traditional place for footnotes. </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## &lt;a name=&quot;rendering-pane&quot;&gt;&lt;/a&gt;The Rendering Preference Pane</span><br><span class="line">This is where I keep preferences relating to how I render and style the parsed markdown in the preview window.  </span><br><span class="line">![Rendering preferences pane](http://d.pr/i/rT4d+)</span><br><span class="line"></span><br><span class="line">### CSS</span><br><span class="line">You can choose different css files for me to use to render your html. You can even customize or add your own custom css files.</span><br><span class="line"></span><br><span class="line">### Syntax Highlighting</span><br><span class="line">You have already seen how I can syntax highlight your fenced code blocks. See the [Fenced Code Block](#fenced-code-block) section if you haven’t! You can also choose different themes for syntax highlighting.</span><br><span class="line"></span><br><span class="line">### TeX-like Math Syntax</span><br><span class="line">I can also render TeX-like math syntaxes, if you allow me to.[^math] I can do inline math like this: \\( 1 + 1 \\) or this (in MathML): &lt;math&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;, and block math:</span><br><span class="line"></span><br><span class="line">\\[</span><br><span class="line">    A^T_S = B</span><br><span class="line">\\]</span><br><span class="line"></span><br><span class="line">or (in MathML)</span><br><span class="line"></span><br><span class="line">&lt;math display=&quot;block&quot;&gt;</span><br><span class="line">    &lt;msubsup&gt;&lt;mi&gt;A&lt;/mi&gt; &lt;mi&gt;S&lt;/mi&gt; &lt;mi&gt;T&lt;/mi&gt;&lt;/msubsup&gt;</span><br><span class="line">    &lt;mo&gt;=&lt;/mo&gt;</span><br><span class="line">    &lt;mi&gt;B&lt;/mi&gt;</span><br><span class="line">&lt;/math&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### Task List Syntax</span><br><span class="line">1. [x] I can render checkbox list syntax</span><br><span class="line">	* [x] I support nesting</span><br><span class="line">	* [x] I support ordered *and* unordered lists</span><br><span class="line">2. [ ] I don&apos;t support clicking checkboxes directly in the html window</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### Jekyll front-matter</span><br><span class="line">If you like, I can display Jekyll front-matter in a nice table. Just make sure you put the front-matter at the very beginning of the file, and fence it with `---`. For example:</span><br></pre></td></tr></table></figure></p>
+<hr>
+<p>title: “Macdown is my friend”</p>
+<h2 id="date-2014-06-06-20-00-00"><a href="#date-2014-06-06-20-00-00" class="headerlink" title="date: 2014-06-06 20:00:00"></a>date: 2014-06-06 20:00:00</h2><p>```</p>
+<h3 id="Render-newline-literally"><a href="#Render-newline-literally" class="headerlink" title="Render newline literally"></a>Render newline literally</h3><p>Normally I require you to put two spaces and a newline (aka return) at the end of a line in order to create a line break. If you like, I can render a newline any time you end a line with a newline. However, if you enable this, markdown that looks lovely when I render it might look pretty funky when you let some <em>other</em> program render it.</p>
+<h2 id="The-General-Preferences-Pane"><a href="#The-General-Preferences-Pane" class="headerlink" title="The General Preferences Pane"></a><a name="general-pane"></a>The General Preferences Pane</h2><p>This is where I keep preferences related to application behavior.<br><img src="http://d.pr/i/rvwu+" alt="General preferences pane"></p>
+<p>The General Preferences Pane allows you to tell me how you want me to behave. For example, do you want me to make sure there is a document open when I launch? You can also tell me if I should constantly update the preview window as you type, or wait for you to hit <code>command-R</code> instead. Maybe you prefer your editor window on the right? Or to see the word-count as you type. This is also the place to tell me if you are interested in pre-releases of me, or just want to stick to better-tested official releases.  </p>
+<h2 id="The-Editor-Preference-Pane"><a href="#The-Editor-Preference-Pane" class="headerlink" title="The Editor Preference Pane"></a><a name="editor-pane"></a>The Editor Preference Pane</h2><p>This is where I keep preferences related to the behavior and styling of the editing window.<br><img src="http://d.pr/i/6OL5+" alt="Editor preferences pane"></p>
+<h3 id="Styling"><a href="#Styling" class="headerlink" title="Styling"></a>Styling</h3><p>My editor provides syntax highlighting. You can edit the base font and the coloring/sizing theme. I provided some default themes (courtesy of <a href="http://mouapp.com" target="_blank" rel="external">Mou</a>’s creator, Chen Luo) if you don’t know where to start.</p>
+<p>You can also edit, or even add new themes if you want to! Just click the <strong><em>Reveal</em></strong> button, and start moving things around. Remember to use the correct file extension (<code>.styles</code>), though. I’m picky about that.</p>
+<p>I offer auto-completion and other functions to ease your editing experience. If you don’t like it, however, you can turn them off.</p>
+<h2 id="Hack-On"><a href="#Hack-On" class="headerlink" title="Hack On"></a>Hack On</h2><p>That’s about it. Thanks for listening. I’ll be quiet from now on (unless there’s an update about the app—I’ll remind you for that!).</p>
+<p>Happy writing!</p>
+<p>[^emphasize]: If <strong>Underlines</strong> is turned on, <code>_this notation_</code> will render as underlined instead of emphasized </p>
+<p>[^under]: If <strong>Underline</strong> is disabled <code>_this_</code> will be rendered as <em>emphasized</em> instead of being underlined.</p>
+<p>[^quote]: <strong>Quote</strong> replaces literal <code>&quot;</code> characters with html <code>&lt;q&gt;</code> tags. <strong>Quote</strong> and <strong>Smartypants</strong> are syntactically incompatible. If both are enabled, <strong>Quote</strong> takes precedence. Note that <strong>Quote</strong> is different from <em>blockquote</em>, which is part of standard Markdown.</p>
+<p>[^math]: Internet connection required.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><h1 id="MacDown"><a href="#MacDown" class="headerlink" title="MacDown"></]]>
+    </summary>
+    
+      <category term="markdown" scheme="http://www.codingevo.com/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[趋势线画法]]></title>
+    <link href="http://www.codingevo.com/2016/08/03/%E8%B6%8B%E5%8A%BF%E7%BA%BF%E7%94%BB%E6%B3%95/"/>
+    <id>http://www.codingevo.com/2016/08/03/趋势线画法/</id>
+    <published>2016-08-03T07:33:59.000Z</published>
+    <updated>2016-08-03T14:03:30.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><p>股价上涨时，每次回调至趋势线位置，便会重新上升；股价下跌时，每次反弹至趋势线位置，便会重新下跌。趋势线能够发挥这样的作用，与其变现形式和形成原理有关。趋势线则是反应多空双方力量强弱的分界线</p>
+<h2 id="趋势线的强度"><a href="#趋势线的强度" class="headerlink" title="趋势线的强度"></a>趋势线的强度</h2><h3 id="上升趋势线"><a href="#上升趋势线" class="headerlink" title="上升趋势线"></a>上升趋势线</h3><ol>
+<li>趋势线所涉及的时间越长，那么趋势线的支撑作用越强</li>
+<li>股价沿趋势线上涨的过程中，回调触及趋势线后上涨的次数越多，趋势线的作用越强</li>
+<li>接近45°度角的趋势线的支撑作用要强于其他角度的趋势线</li>
+</ol>
+<h3 id="下降趋势线"><a href="#下降趋势线" class="headerlink" title="下降趋势线"></a>下降趋势线</h3><ol>
+<li>趋势线所涉及的时间越长，那么趋势线的阻力作用越强</li>
+<li>股价沿趋势线上涨的过程中，反弹触及趋势线后下降的次数越多，趋势线的作用越强</li>
+<li>接近45°度角的趋势线的阻力作用要强于其他角度的趋势线</li>
+</ol>
+<h3 id="趋势线的周期"><a href="#趋势线的周期" class="headerlink" title="趋势线的周期"></a>趋势线的周期</h3><p>按照趋势线的周期可以分为3类</p>
+<ol>
+<li>长期趋势线</li>
+<li>中期趋势线</li>
+<li>短期趋势线</li>
+</ol>
+<h3 id="上升和下降趋势线的画法"><a href="#上升和下降趋势线的画法" class="headerlink" title="上升和下降趋势线的画法"></a>上升和下降趋势线的画法</h3><ol>
+<li>上升趋势线是以两个回调低(反弹)点为关键点位所画的直线，而且这两个下跌(上涨)点应该是股价两次回调后的转折点。</li>
+<li>两个关键点之间必须有一段距离，不能是两个紧紧相邻的点。</li>
+<li>通过两个关键点的连线所画出的趋势线，必须经过第三个低点进行确认</li>
+<li>画趋势线时，必须以K线的实体为出基点。上升趋势线：阳线的开盘价和阴线的收盘价。下降趋势线：阳线的收盘价和阴线的开盘价</li>
+</ol>
+<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>股价穿越趋势线时，有两点注意</p>
+<ol>
+<li>股价自上而下穿越上升趋势线的时候，只能说明行情有向坏的可能，但不能完全认定股价会开始下降，这时这可以半仓卖出，然后持续观望。</li>
+<li>股价自下而上穿越下降趋势线的时候，只能说明行情有变好的可能，但不能完全认定股价会开始上升，投资者不易买入股票。</li>
+</ol>
+<h3 id="事例"><a href="#事例" class="headerlink" title="事例"></a>事例</h3><p><img src="http://7xst5r.com1.z0.glb.clouddn.com/upline.png" alt="image"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><p>股价上涨时，每次回调至趋势线位置，便会重新上升；股价下跌时，每次反弹至趋势线位置，便会重新下跌。趋势线能够发挥这样的作用，与其变现形式和形成]]>
+    </summary>
+    
+      <category term="股票" scheme="http://www.codingevo.com/tags/%E8%82%A1%E7%A5%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[贵金属投资十大内功心法]]></title>
+    <link href="http://www.codingevo.com/2016/08/03/%E8%B4%B5%E9%87%91%E5%B1%9E%E6%8A%95%E8%B5%84%E5%8D%81%E5%A4%A7%E5%86%85%E5%8A%9F%E5%BF%83%E6%B3%95/"/>
+    <id>http://www.codingevo.com/2016/08/03/贵金属投资十大内功心法/</id>
+    <published>2016-08-02T20:14:27.000Z</published>
+    <updated>2016-08-03T04:19:41.000Z</updated>
+    <content type="html"><![CDATA[<p>1、黄金投资是长跑，不是一把决胜负的赌场。<br>                                  ——仓位控制很重要。<br>2、在黄金投资领域，再牛的人也有看走眼的时候，风险始终存在。投资高手也是人，与普通投资者一样也会有赚有赔，但差异在于投资高手懂得控制损失，而普通投资者却是死扛，直到爆仓。<br>                            ——损失不能杜绝但可控制。<br>3、既不做坚定的多头，也不作坚定的空头。顺势而为真英雄。<br>                                  ——勇于认错很重要。<br>4、黄金投资市场如战场，赢得胜利的关键是战胜自己的贪婪和恐惧。<br>                            ——克服人性的弱点很重要。<br>5、行情天天有，每天都充满了赚钱的机会。但看得懂的行情和属于你的机会是不是天天有呢？ 看不明白的时候，与其做错不如不做。<br>                            ——懂得空仓和锁仓很重要。<br>6、人非圣贤，孰能无错。但很多人在金市里一错再错，其主要原因在于缺乏严格的自律控制，很容易被市场假象所迷惑，最后落得一败涂地。任何人操盘，都不可能百分百正确，总是有相当多的时候要赔钱。问题是，赔钱时尽量要把赔钱的数量控制到最小的范围之内，赚钱时要尽量多赚，最后的结果才能使你成为一个炒金的赢家。<br>                                      ——自律很重要。<br>7、对于黄金投资，没有人能够彻底的了解，千万不要认为自己了解所有事情。如果因一时的小赢而趾高气扬，变得非常固执，则祸害常会在不知觉中来临。<br>                                        ——骄兵必败。<br>8、人类拥有视、味、 触、嗅、听五种感觉，均可实体感觉到，唯有灵感来自不断地学习知识、积累经验，从而达到预测走势的能力。<br>                           ——灵感是赢家必须的思维。</p>
+<p>9、在熟悉操作规则后，在操作初期新手应尽可能做实盘交易，但是每次交易的数量应该比较小。新手出现错误的机会比较多，做的数量越少，风险就越小，但是必须要进行大量的实践。 如果没有大量的实践，就不可能积累弥足珍贵的实战经验，也就不可能真正学会成为赢家的技能。<br>       ——站在岸边不下水的人永远也学不会游泳。<br>10、赢家的秘诀是不断重复正确。把握住一个大的波段行情不是人人都可以做到的，但操作一个小的波段行情却不是困难的。不断积小胜也可达到把握大波段行情的效果，它不仅使你的资金雪球越滚越大，而且可以让你保持一个良好的心态，快乐的赚钱：劳逸结合、张弛有度。<br>                                ——常赚比大赚更重要。<br>学习使我快乐  15:07:27</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>1、黄金投资是长跑，不是一把决胜负的赌场。<br>                                  ——仓位控制很重要。<br>2、在黄金投资领域，再牛的人也有看走眼的时候，风险始终存在。投资高手也是人，与普通投资者一样也会有赚有赔，但差异在于投资高手懂得]]>
+    </summary>
+    
+      <category term="大宗商品" scheme="http://www.codingevo.com/tags/%E5%A4%A7%E5%AE%97%E5%95%86%E5%93%81/"/>
+    
+      <category term="白银" scheme="http://www.codingevo.com/tags/%E7%99%BD%E9%93%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[白银行情解读]]></title>
+    <link href="http://www.codingevo.com/2016/08/03/%E7%99%BD%E9%93%B6%E8%A1%8C%E6%83%85%E8%A7%A3%E8%AF%BB/"/>
+    <id>http://www.codingevo.com/2016/08/03/白银行情解读/</id>
+    <published>2016-08-02T20:14:27.000Z</published>
+    <updated>2016-08-03T04:19:35.000Z</updated>
+    <content type="html"><![CDATA[<p>解读：晚间21:00 华盛顿 美联储理事塔鲁洛参加华尔街日报主办的讨论会，主题为“监管与货币政策，以及二者的交集”。<br>此前，美联储理事塔鲁洛(Daniel Tarullo)周四(6月2日)在接受采访时称，英国6月23日退欧公投是他在美联储今年6月份政策会议上需要考虑一个因素，但他拒绝表态自己主张加息还是按兵不动。塔鲁洛表示，“围绕着英国退欧，很明显存在很多的不确定性。从短期来看，问题更多的是其对市场的直接影响。显然，如果假以时日经济增长会受到影响，这也就会影响到我们正在进行的货币政策。”<br>塔鲁洛指出，推行政策有几种方法：<br>其一是一些官员认为渐进加息可以防止通货膨胀之后过快上涨。<br>至于第二种方法，他表示，“事实上大家并不清楚充分就业是怎么一种情况，我们所处的全球环境并不是通胀倾向的，我们也许可以获取更多的就业和更高的工资，但是不是真的到了有肯定理由要采取行动的时点呢？”塔鲁洛表示自己倾向于认为就业仍有增长空间。<br>综述：偏向就业数据指引作为主要参考，料将讲话还是比较谨慎，不偏鸽派也不偏鹰派（依旧期待支撑金银左右），重点还是需要关注本周五晚间20:30数据指引，届时金银市场又将迎来异常残酷的考验，由于近期金银出现大幅上涨，留出了大幅度回撤空间我们不得不防，进场风险加剧。<br>操作思路：近期依旧是逢低买涨策略，谨慎短空；回撤调整可轻仓进场。<br>1、大格局上：白银后市会试探冲击到5000点更高位置，可能会有接近500点的逼空行情使得点位来到5500。黄金有望向300元整数关口进发，如果突破还将惯性上涨。（预期理想状况）<br>2、短线上：白银短线波动较大，多空双向都有操作机会。但是操作上一定要带好止损，可参考app包大人建议或分析师盘中提醒！<br>以上分析建议，仅供参考，据此操作盈亏自负。<br>【风险事件提醒】：因近期金银自从英国脱欧后，等因素，导致金银连续大幅上涨；周四周五将迎来美国ADP数据、初请数据、和非农数据；大家在操作上一定要注意风险控制；若，入场，一定要轻仓，轻仓，轻仓（重要的事说三遍）；严格控制止盈止损，做好仓位控制和资金风险控制。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>解读：晚间21:00 华盛顿 美联储理事塔鲁洛参加华尔街日报主办的讨论会，主题为“监管与货币政策，以及二者的交集”。<br>此前，美联储理事塔鲁洛(Daniel Tarullo)周四(6月2日)在接受采访时称，英国6月23日退欧公投是他在美联储今年6月份政策会议上需要考虑一]]>
+    </summary>
+    
+      <category term="大宗商品" scheme="http://www.codingevo.com/tags/%E5%A4%A7%E5%AE%97%E5%95%86%E5%93%81/"/>
+    
+      <category term="白银" scheme="http://www.codingevo.com/tags/%E7%99%BD%E9%93%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[RxJava使用小结]]></title>
+    <link href="http://www.codingevo.com/2016/05/14/RxJava%E4%BD%BF%E7%94%A8%E5%B0%8F%E7%BB%93/"/>
+    <id>http://www.codingevo.com/2016/05/14/RxJava使用小结/</id>
+    <published>2016-05-14T02:55:03.000Z</published>
+    <updated>2016-05-14T03:57:25.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><p>近来一些日子，<code>Reactivex</code>看到的机会越来越多，如雷贯耳，于是乎决定亲自撸一遍，记录一下自己遇到的坑</p>
+<p>###为什么要用Reactivex？</p>
+<ul>
+<li>异步：它是一个实现<code>异步</code>操作的库</li>
+<li>简洁：它可以随着应用程序的越来越复杂的同时，依然保持简洁</li>
+</ul>
+<blockquote>
+<p>a library for composing asynchronous and event-based programs using observable sequences for the Java VM</p>
+</blockquote>
+<p>这是在<a href="https://github.com/ReactiveX/RxJava" target="_blank" rel="external">RxJava</a>在github主页上的介绍</p>
+<h3 id="概念："><a href="#概念：" class="headerlink" title="概念："></a>概念：</h3><p><code>RxJava</code>的异步实现，是通过扩展的观察者模式实现的。android中比较典型的例子：点击监听器<code>OnClickListener</code>。<code>View</code>是被观察者，<code>OnClickListener</code>是观察者，两者通过<code>setOnClickListener</code>产生关系，<code>Android Framework</code>层会将点击事件发送给注册过的OnClickListener。</p>
+<p>RxJava的四大基本概念</p>
+<ul>
+<li>Observable：被观察者，可观察者</li>
+<li>Observer: 观察者</li>
+<li>Subscribe：订阅</li>
+<li>Event：事件</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><p>近来一些日子，<code>Reactivex</code>看到的机会越来越多，如雷贯耳，于是乎决定亲自撸一遍，记录一下自己遇到的坑</p>
+]]>
+    </summary>
+    
+      <category term="ReactiveX" scheme="http://www.codingevo.com/tags/ReactiveX/"/>
+    
+      <category term="RxJava" scheme="http://www.codingevo.com/tags/RxJava/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[android中MVP的实践]]></title>
+    <link href="http://www.codingevo.com/2016/04/11/android%E4%B8%ADMVP%E7%9A%84%E5%AE%9E%E8%B7%B5/"/>
+    <id>http://www.codingevo.com/2016/04/11/android中MVP的实践/</id>
+    <published>2016-04-11T08:43:19.000Z</published>
+    <updated>2016-04-11T08:43:19.000Z</updated>
+    <content type="html"><![CDATA[<p>在这里填写博客内容</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在这里填写博客内容</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android中的布局和适配]]></title>
+    <link href="http://www.codingevo.com/2015/10/16/Android%E4%B8%AD%E7%9A%84%E5%B8%83%E5%B1%80%E5%92%8C%E9%80%82%E9%85%8D/"/>
+    <id>http://www.codingevo.com/2015/10/16/Android中的布局和适配/</id>
+    <published>2015-10-16T13:17:02.000Z</published>
+    <updated>2016-04-08T13:32:08.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>介绍几种android中常用的布局和适配尝试</p>
+<h3 id="线性布局LinearLayout"><a href="#线性布局LinearLayout" class="headerlink" title="线性布局LinearLayout:"></a>线性布局<code>LinearLayout</code>:</h3><p>在显示分割线时，使用 <code>divider</code>属性：</p>
+<ol>
+<li><p>设置一张分割线图片</p>
+</li>
+<li><p>showDivider分割线的位置： </p>
+</li>
+</ol>
+<pre><code>* none 无
+* begining 开始
+* end 结束
+* middle 两个组件之间
+</code></pre><h5 id="线性布局的优点："><a href="#线性布局的优点：" class="headerlink" title="线性布局的优点："></a>线性布局的优点：</h5><p>它的weight属性，在适配时帮助还是很大的。</p>
+<h5 id="线性布局的缺点："><a href="#线性布局的缺点：" class="headerlink" title="线性布局的缺点："></a>线性布局的缺点：</h5><p>当页面比较复杂的时候，会嵌套很多的线性布局，这样会降低<code>UI Render</code>的效率（渲染速度），二期如果是listview和gridview，效率会更低。另外太多层的线性布局嵌套会占用跟多的系统资源，还可能引发<code>stackoverflow</code></p>
+<h3 id="相对布局RelativeLayout"><a href="#相对布局RelativeLayout" class="headerlink" title="相对布局RelativeLayout:"></a>相对布局<code>RelativeLayout</code>:</h3><p>基本属性：</p>
+<ul>
+<li>gravity:设置容器内组件的对其方式</li>
+<li>ignoreGravity:设置了该属性为<code>true</code>时的组件，将不受<code>gravity</code>的属性影响</li>
+</ul>
+<h3 id="帧布局framelayout"><a href="#帧布局framelayout" class="headerlink" title="帧布局framelayout:"></a>帧布局<code>framelayout</code>:</h3><p>常用属性：</p>
+<ul>
+<li><code>foreground</code>:设置更改真布局的前景图像</li>
+<li><code>foregroundGravity</code>:是指前景图像显示的位置</li>
+</ul>
+<h3 id="网格布局GridLayout"><a href="#网格布局GridLayout" class="headerlink" title="网格布局GridLayout:"></a>网格布局<code>GridLayout</code>:</h3><p>该布局是android4.0之后推出的，所以最小API等级为14。<code>GridLayout</code>需要使用<code>v7</code>jar包，才可以使用。<br>可以解决线性布局和相对布局的复杂嵌套问题</p>
+<h3 id="关于适配："><a href="#关于适配：" class="headerlink" title="关于适配："></a>关于适配：</h3><ul>
+<li><code>dp</code>（dip）：设备独立像素，不同的设备有不同的显示效果。</li>
+<li><code>px</code>：不同设备，显示效果相同，一般HVGA320*480,用的比较多。一般我们为了支持WVGA和HVGA和QVGA，推荐使用这个，不依赖像素。</li>
+<li><code>pt</code>：是一个标准的长度单位，1pt=1/72英寸，用于印刷业，简单易用</li>
+<li><code>sp</code>：主要用于字体显示</li>
+</ul>
+<p>尽量搭配使用RelativeLayout+LinearLayout的weight属性</p>
+<p>ps:google官方并不提倡使用weight权重，因为这样会在加载布局时造成大量的计算，影响性能。</p>
+<h3 id="Android-Percent-Support-Lib"><a href="#Android-Percent-Support-Lib" class="headerlink" title="Android Percent Support Lib"></a><a href="http://http://blog.csdn.net/u014784379/article/details/46754189" target="_blank" rel="external">Android Percent Support Lib</a></h3><p>还有就是谷歌官方推出了类似于CSS的百分比来布局的库（<code>Android Percent Support Lib</code>）：</p>
+<p>如何使用</p>
+<p>首先需要满足如下要求：</p>
+<p>Android SDK v22<br>Android Build Tools v22.0.1<br>Android Percent Support Repository v22.2.0<br>Android Support v4 Repository v22.2.0</p>
+<p>然后在<code>build.gradle</code>中添加：</p>
+<pre><code>dependencies {
+    compile &apos;com.android.support:percent:22.2.0&apos;
+}
+</code></pre><p>以后补充个，使用百分比适配库的</p>
+<h3 id="屏幕适配："><a href="#屏幕适配：" class="headerlink" title="屏幕适配："></a>屏幕适配：</h3><p>2014年初，6个主流的分辨率：</p>
+<ul>
+<li>480x680</li>
+<li>720x1280</li>
+<li>320x480</li>
+<li>480x854</li>
+<li>540x960</li>
+<li>1080x1920</li>
+</ul>
+<p>屏幕尺寸：1英寸=2.54厘米</p>
+<p>屏幕分辨率：分辨率是指在横纵向上的像素点数，单位是<code>px</code>，1px=1个像素点</p>
+<p><code>px</code>：获取屏幕宽高，写布局时尽量用dp而不是px</p>
+<p>PS:160为基础，1dip=1px，如果是320dip则1dip=2px</p>
+<p>对于5种主流的像素密度：</p>
+<ul>
+<li>MDPI</li>
+<li>HDPI</li>
+<li>XHDPI</li>
+<li>XXHDPI</li>
+<li>XXXHDPI</li>
+</ul>
+<p>按照2:3:4:6:8的比例进行缩放<br>其中LDPI是低像素</p>
+<h3 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h3><ol>
+<li>使用wrap_content,math_parent,weight</li>
+<li>使用布局别名：即在手机上显示单面板，在平板上显示双面板</li>
+<li>使用自动拉伸图.9png图，现在谷歌官方支持使用<code>SVG</code>图片</li>
+<li>使用dp和sp</li>
+<li>提供备用位图</li>
+<li>动态设置，获取屏幕参数</li>
+<li>当分辨率不同时，不能使用px</li>
+<li>因为屏幕宽度不一样，所以要小心使用dp</li>
+</ol>
+<h3 id="关于高清设计图尺寸"><a href="#关于高清设计图尺寸" class="headerlink" title="关于高清设计图尺寸"></a>关于高清设计图尺寸</h3><ol>
+<li>以mdpi为设计，然后放大图片到各个分辨率</li>
+<li>以高分辨率为基础，对低分辨率进行缩放，可以以1280x720，1960x1080为主要分辨进行设计</li>
+<li>ImagView 的ScaleType，设置不同的ScaleType会得到不同的显示效果，一般情况下，设置centerCrop能获得更好的适配效果</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>介绍几种android中常用的布局和适配尝试</p>
+<h3 id="线性布局LinearLayout"><a href="#线性布局Lin]]>
+    </summary>
+    
+      <category term="android" scheme="http://www.codingevo.com/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[android系统特性与平台架构]]></title>
+    <link href="http://www.codingevo.com/2015/09/08/android%E7%B3%BB%E7%BB%9F%E7%89%B9%E6%80%A7%E4%B8%8E%E5%B9%B3%E5%8F%B0%E6%9E%B6%E6%9E%84/"/>
+    <id>http://www.codingevo.com/2015/09/08/android系统特性与平台架构/</id>
+    <published>2015-09-08T03:47:43.000Z</published>
+    <updated>2016-04-08T13:40:28.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="1-应用程序框架支持组件的重用与替换（app发布的时候遵守了框架的约定，其他APP也可以使用该模块）"><a href="#1-应用程序框架支持组件的重用与替换（app发布的时候遵守了框架的约定，其他APP也可以使用该模块）" class="headerlink" title="1.应用程序框架支持组件的重用与替换（app发布的时候遵守了框架的约定，其他APP也可以使用该模块）"></a>1.应用程序框架支持组件的重用与替换（app发布的时候遵守了框架的约定，其他APP也可以使用该模块）</h3><h3 id="2-Dalvik虚拟机：专门为移动设备优化；集成的浏览器：webkit引擎"><a href="#2-Dalvik虚拟机：专门为移动设备优化；集成的浏览器：webkit引擎" class="headerlink" title="2.Dalvik虚拟机：专门为移动设备优化；集成的浏览器：webkit引擎"></a>2.<code>Dalvik</code>虚拟机：专门为移动设备优化；集成的浏览器：<code>webkit</code>引擎</h3><h3 id="3-sqlite结构化的数据存储"><a href="#3-sqlite结构化的数据存储" class="headerlink" title="3.sqlite结构化的数据存储"></a>3.<code>sqlite</code>结构化的数据存储</h3><h3 id="4-优化的图形库，多媒体支持，GSM电话技术，蓝牙等"><a href="#4-优化的图形库，多媒体支持，GSM电话技术，蓝牙等" class="headerlink" title="4.优化的图形库，多媒体支持，GSM电话技术，蓝牙等"></a>4.优化的图形库，多媒体支持，<code>GSM</code>电话技术，蓝牙等</h3><h3 id="5-采用软件叠层方式构建"><a href="#5-采用软件叠层方式构建" class="headerlink" title="5.采用软件叠层方式构建"></a>5.采用软件叠层方式构建</h3><hr>
+<h1 id="android平台架构："><a href="#android平台架构：" class="headerlink" title="android平台架构："></a>android平台架构：</h1><h3 id="1-application：应用程序层，我们平时做的开发就是在这个层次上进行的，包括一些内置的应用程序，使用的是java语言。"><a href="#1-application：应用程序层，我们平时做的开发就是在这个层次上进行的，包括一些内置的应用程序，使用的是java语言。" class="headerlink" title="1.application：应用程序层，我们平时做的开发就是在这个层次上进行的，包括一些内置的应用程序，使用的是java语言。"></a>1.<code>application</code>：应用程序层，我们平时做的开发就是在这个层次上进行的，包括一些内置的应用程序，使用的是java语言。</h3><h3 id="2-application-framework-应用程序框架层，无论内置还是我们自己编写的app都是使用的这个层，比如我们实现一个来电黑名单，自动挂断电话，我们就需要用到电话管理（telephonyManager）通过该层，我们就可以很轻松的实现挂断操作，而不需要关心底层实现"><a href="#2-application-framework-应用程序框架层，无论内置还是我们自己编写的app都是使用的这个层，比如我们实现一个来电黑名单，自动挂断电话，我们就需要用到电话管理（telephonyManager）通过该层，我们就可以很轻松的实现挂断操作，而不需要关心底层实现" class="headerlink" title="2.application framework:应用程序框架层，无论内置还是我们自己编写的app都是使用的这个层，比如我们实现一个来电黑名单，自动挂断电话，我们就需要用到电话管理（telephonyManager）通过该层，我们就可以很轻松的实现挂断操作，而不需要关心底层实现"></a>2.<code>application framework</code>:应用程序框架层，无论内置还是我们自己编写的app都是使用的这个层，比如我们实现一个来电黑名单，自动挂断电话，我们就需要用到电话管理（<code>telephonyManager</code>）通过该层，我们就可以很轻松的实现挂断操作，而不需要关心底层实现</h3><h3 id="3-libraries-库-android-Runtime-android运行时-：android提供了一些c和c-库，为不同组件所使用，比如媒体框架。android运行时则由android核心库集-Dalvik虚拟机构成，Dalvik虚拟机是针对-移动设备的虚拟机，它的特点：不需要很快的CPU计算速度和大量的内存空间；而每个app都单独地运行在单独的Dalvik虚拟机内每个app对应一个Dalvik集成。通过DX工具——将class文件打包——编译—–-dex文件—–Dalvik则运行-dex文件"><a href="#3-libraries-库-android-Runtime-android运行时-：android提供了一些c和c-库，为不同组件所使用，比如媒体框架。android运行时则由android核心库集-Dalvik虚拟机构成，Dalvik虚拟机是针对-移动设备的虚拟机，它的特点：不需要很快的CPU计算速度和大量的内存空间；而每个app都单独地运行在单独的Dalvik虚拟机内每个app对应一个Dalvik集成。通过DX工具——将class文件打包——编译—–-dex文件—–Dalvik则运行-dex文件" class="headerlink" title="3.libraries(库)+android Runtime(android运行时)：android提供了一些c和c++库，为不同组件所使用，比如媒体框架。android运行时则由android核心库集+Dalvik虚拟机构成，Dalvik虚拟机是针对 移动设备的虚拟机，它的特点：不需要很快的CPU计算速度和大量的内存空间；而每个app都单独地运行在单独的Dalvik虚拟机内每个app对应一个Dalvik集成。通过DX工具——将class文件打包——编译—–.dex文件—–Dalvik则运行.dex文件"></a>3.<code>libraries</code>(库)+android Runtime(android运行时)：android提供了一些c和c++库，为不同组件所使用，比如媒体框架。android运行时则由android核心库集+Dalvik虚拟机构成，Dalvik虚拟机是针对 移动设备的虚拟机，它的特点：不需要很快的CPU计算速度和大量的内存空间；而每个app都单独地运行在单独的Dalvik虚拟机内每个app对应一个Dalvik集成。通过DX工具——将class文件打包——编译—–.dex文件—–Dalvik则运行.dex文件</h3><h3 id="4-linux内核-这里就是涉及底层驱动的东西了，一些系统服务，比如安全性，内存管理以及进程管理等。"><a href="#4-linux内核-这里就是涉及底层驱动的东西了，一些系统服务，比如安全性，内存管理以及进程管理等。" class="headerlink" title="4.linux内核  这里就是涉及底层驱动的东西了，一些系统服务，比如安全性，内存管理以及进程管理等。"></a>4.<code>linux</code>内核  这里就是涉及底层驱动的东西了，一些系统服务，比如安全性，内存管理以及进程管理等。</h3><hr>
+<h1 id="相关术语的解析："><a href="#相关术语的解析：" class="headerlink" title="相关术语的解析："></a>相关术语的解析：</h1><h3 id="1-Dalvik-android特有的虚拟机，和JVM不同，Dalvik非常适合在移动终端上使用。"><a href="#1-Dalvik-android特有的虚拟机，和JVM不同，Dalvik非常适合在移动终端上使用。" class="headerlink" title="1.Dalvik:android特有的虚拟机，和JVM不同，Dalvik非常适合在移动终端上使用。"></a>1.Dalvik:android特有的虚拟机，和JVM不同，Dalvik非常适合在移动终端上使用。</h3><h3 id="2-AVD：android虚拟设备，模拟器"><a href="#2-AVD：android虚拟设备，模拟器" class="headerlink" title="2.AVD：android虚拟设备，模拟器"></a>2.<code>AVD</code>：android虚拟设备，模拟器</h3><h3 id="3-SDK：软件开发工具包，就是安卓系统、平台架构的工具集合，如adb-exe"><a href="#3-SDK：软件开发工具包，就是安卓系统、平台架构的工具集合，如adb-exe" class="headerlink" title="3.SDK：软件开发工具包，就是安卓系统、平台架构的工具集合，如adb.exe"></a>3.<code>SDK</code>：软件开发工具包，就是安卓系统、平台架构的工具集合，如adb.exe</h3><h3 id="4-DDMS-安卓调试工具"><a href="#4-DDMS-安卓调试工具" class="headerlink" title="4.DDMS:安卓调试工具"></a>4.<code>DDMS</code>:安卓调试工具</h3><h3 id="5-DX工具：将class文件转换成-dex文件。"><a href="#5-DX工具：将class文件转换成-dex文件。" class="headerlink" title="5.DX工具：将class文件转换成.dex文件。"></a>5.DX工具：将class文件转换成.dex文件。</h3><h3 id="6-AAPT：android资源打包工具"><a href="#6-AAPT：android资源打包工具" class="headerlink" title="6.AAPT：android资源打包工具"></a>6.<code>AAPT</code>：android资源打包工具</h3><h3 id="7-adb：android调试桥，命令行必备。"><a href="#7-adb：android调试桥，命令行必备。" class="headerlink" title="7.adb：android调试桥，命令行必备。"></a>7.<code>adb</code>：android调试桥，命令行必备。</h3><h3 id="8-R-java-有aapt工具根据APP中的资源文件自动生成，可以理解为"><a href="#8-R-java-有aapt工具根据APP中的资源文件自动生成，可以理解为" class="headerlink" title="8.R.java:有aapt工具根据APP中的资源文件自动生成，可以理解为"></a>8.<code>R.java</code>:有aapt工具根据APP中的资源文件自动生成，可以理解为</h3><h3 id="9-androidManifest-xml：APP的包名、组件生命、程序兼容的最低版本-所需的权限的配置文件。"><a href="#9-androidManifest-xml：APP的包名、组件生命、程序兼容的最低版本-所需的权限的配置文件。" class="headerlink" title="9.androidManifest.xml：APP的包名、组件生命、程序兼容的最低版本+所需的权限的配置文件。"></a>9.<code>androidManifest.xml</code>：APP的包名、组件生命、程序兼容的最低版本+所需的权限的配置文件。</h3>]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="1-应用程序框架支持组件的重用与替换（app发布的时候遵守了框架的约定，其他APP也可以使用该模块）"><a href="#1-应用程序框架支持组件的重用与替换（app发布的时候遵守了框架的约定，其他APP也可以使用该模块）" class="headerlink"]]>
+    </summary>
+    
+      <category term="android" scheme="http://www.codingevo.com/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[android ADB 常用命令]]></title>
+    <link href="http://www.codingevo.com/2015/09/06/android-ADB-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://www.codingevo.com/2015/09/06/android-ADB-常用命令/</id>
+    <published>2015-09-06T07:27:01.000Z</published>
+    <updated>2016-04-11T09:36:14.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="语句"><a href="#语句" class="headerlink" title="语句"></a>语句</h2><ul>
+<li>adb install [-r] [-s]  xxxx.apk 安装软件</li>
+<li>app：adb unstall [-k] &lt;包名&gt; -k 卸载app</li>
+<li>adb pull xxxx.xxxx 取出手机中的文件</li>
+<li>adb push xxx.xxx 发送文件到手机当中</li>
+<li>adb shell  进入手机终端</li>
+<li>adb devices     杀死adb</li>
+<li>adb start-server   启动adb</li>
+<li>reset adb 重启</li>
+</ul>
+<p> FAQ</p>
+<ul>
+<li>App的包名是App的唯一标识！！！</li>
+<li>安装软件中的  -r  重新安装</li>
+<li>-s   安装到SDK</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="语句"><a href="#语句" class="headerlink" title="语句"></a>语句</h2><ul>
+<li>adb install [-r] [-s]  xxxx.apk 安装软件</li>
+<li>app：adb unstall [-]]>
+    </summary>
+    
+      <category term="android" scheme="http://www.codingevo.com/tags/android/"/>
+    
+      <category term="ADB" scheme="http://www.codingevo.com/tags/ADB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[git和svn的区别]]></title>
+    <link href="http://www.codingevo.com/2015/06/26/git%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://www.codingevo.com/2015/06/26/git的使用/</id>
+    <published>2015-06-26T13:32:06.000Z</published>
+    <updated>2016-04-08T13:56:30.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>git是一个开源的<strong>分布式</strong>版本控制系统，与常用的<strong>SVN</strong>,<strong>CVS</strong>等不同。因为采取了分布式版本库的方式，不需要服务器软件的支持。</p>
+<p>git他不仅仅是个版本控制系统，还是个内容管理系统<strong>CMS</strong>.</p>
+<h2 id="Git和SVN区别："><a href="#Git和SVN区别：" class="headerlink" title="Git和SVN区别："></a>Git和SVN区别：</h2><ol>
+<li>git是分布式的，svn和cvs不是，这个是最核心的区别</li>
+<li>git把内容元数据方式存储，而SVN是按文件：把所有的版本控制系统都是把元文件信息隐藏在svn,cvs等文件中</li>
+<li>git分支和svn的分支不同：分支在svn中一点都不特别，就是版本中的另外一个目录</li>
+<li>git没有一个全局的版本号，而svn有：目前为止这是svn相比git缺少的最大的一个特征</li>
+<li>git的内容完整性要优于svn，git的内容存储使用的是<strong>SHA-1</strong>哈希算法，这样能确保代码内容的完整性，确保在遇到磁盘和网络问题时减低对版本库的破坏</li>
+</ol>
+<h2 id="在git-log-–oneline-命令进入log页面后，按q退出当前页面"><a href="#在git-log-–oneline-命令进入log页面后，按q退出当前页面" class="headerlink" title="在git log –oneline 命令进入log页面后，按q退出当前页面"></a>在git log –oneline 命令进入log页面后，按q退出当前页面</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>git是一个开源的<strong>分布式</strong>版本控制系统，与常用的<strong>SVN</strong>,<strong>C]]>
+    </summary>
+    
+      <category term="git" scheme="http://www.codingevo.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[AndroidStudio使用技巧]]></title>
+    <link href="http://www.codingevo.com/2015/06/13/AndroidStudio%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    <id>http://www.codingevo.com/2015/06/13/AndroidStudio使用技巧/</id>
+    <published>2015-06-13T02:42:55.000Z</published>
+    <updated>2018-02-17T03:00:23.427Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xst5r.com2.z0.glb.clouddn.com/androidstudio.png" alt="image"></p>
+<p>MAC系统专用</p>
+<h3 id="快捷键："><a href="#快捷键：" class="headerlink" title="快捷键："></a>快捷键：</h3><p>1.方法重构：<code>command</code>+<code>option</code>+<code>M</code></p>
+<p>2.于重构相反：<code>command</code>+<code>option</code>+<code>I</code></p>
+<p>3.快速模糊搜索当前中任何文件：double <code>shift</code></p>
+<p>4.搜索工程内任意代码，可以模块（<code>modlue</code>）,根据正则匹配搜索：<code>control</code>+<code>H</code></p>
+<p>5.发现使用调用位置<code>find Usages</code>:<code>shift</code>+<code>command</code>+<code>G</code></p>
+<p>6.快速定位关联的文件<code>Declaration</code>：<code>control</code>+鼠标左键</p>
+<p>7.代码提示快捷键<code>Class Name Completion</code></p>
+<hr>
+<h3 id="模板："><a href="#模板：" class="headerlink" title="模板："></a>模板：</h3><h4 id="文件模板File-Template"><a href="#文件模板File-Template" class="headerlink" title="文件模板File Template:"></a>文件模板<code>File Template</code>:</h4><ul>
+<li><p>保存文件模板 ：</p>
+<p><code>tools</code>-&gt;<code>Save file as template</code></p>
+<p>会默认把当前编辑的文件，保存成模板</p>
+</li>
+<li><p>查看模板：</p>
+<p>鼠标右键菜单中可以查看</p>
+</li>
+</ul>
+<h4 id="活动模板live-Template"><a href="#活动模板live-Template" class="headerlink" title="活动模板live Template:"></a>活动模板<code>live Template</code>:</h4><ul>
+<li>保存自定义活动模板：选中代码后， <code>tools</code>-&gt;<code>Save  as live template</code>，然后键入此活动模板的名字</li>
+<li>活动模板的使用：可以使用as已经编辑好的模板，直接使用,输入模板关键字，直接生成代码:</li>
+</ul>
+<p><code>fbc</code></p>
+<pre><code>() findViewById(R.id.);
+</code></pre><p><code>rouiT</code></p>
+<pre><code>getActivity().runOnUiThread(new Runnable() {
+      @Override
+      public void run() {
+
+      }
+  });
+</code></pre><p> <code>Sfmt</code></p>
+<pre><code>String.format(&quot;&quot;, );
+</code></pre><p>  <code>Toast</code></p>
+<pre><code>Toast.makeText(MainActivity.this, &quot;&quot;,Toast.LENGTH_SHORT).show();
+</code></pre><p>  <code>visible</code></p>
+<pre><code>.setVisibility(View.VISIBLE);
+</code></pre><p>   <code>gone</code></p>
+<pre><code>.setVisibility(View.GONE);
+</code></pre><p>   <code>rgS</code></p>
+<pre><code>.getString(R.string.)
+</code></pre><hr>
+<hr>
+<h3 id="导入github第三方类库，常见错误解决方法："><a href="#导入github第三方类库，常见错误解决方法：" class="headerlink" title="导入github第三方类库，常见错误解决方法："></a>导入github第三方类库，常见错误解决方法：</h3><p><a href="http://www.androidchina.net/4322.html" target="_blank" rel="external">去查看</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://7xst5r.com2.z0.glb.clouddn.com/androidstudio.png" alt="image"></p>
+<p>MAC系统专用</p>
+<h3 id="快捷键："><a href="#快捷键：" class="h]]>
+    </summary>
+    
+      <category term="android" scheme="http://www.codingevo.com/tags/android/"/>
+    
+      <category term="Android studio" scheme="http://www.codingevo.com/tags/Android-studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[AndroidStudio必备插件]]></title>
+    <link href="http://www.codingevo.com/2015/06/09/AndroidStudio%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6/"/>
+    <id>http://www.codingevo.com/2015/06/09/AndroidStudio必备插件/</id>
+    <published>2015-06-08T20:14:27.000Z</published>
+    <updated>2016-04-08T13:54:22.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="AndroidStudio必备插件"><a href="#AndroidStudio必备插件" class="headerlink" title="AndroidStudio必备插件"></a>AndroidStudio必备插件</h1><h3 id="SelectorChapek-for-Android："><a href="#SelectorChapek-for-Android：" class="headerlink" title="SelectorChapek for Android："></a><a href="https://github.com/inmite/android-selector-chapek" target="_blank" rel="external">SelectorChapek for Android</a>：</h3><p>   自动生成selector文件，这个fell倍爽，点击链接详细了解</p>
+<h3 id="Android-Layout-ID-Converter："><a href="#Android-Layout-ID-Converter：" class="headerlink" title="Android Layout ID Converter："></a><a href="http://plugins.jetbrains.com/plugin/7373?pr=" target="_blank" rel="external">Android Layout ID Converter</a>：</h3><p>布局文件ID代码生成器，超好用啊,之前可以as中直接搜索到，但是现在搜不到了，现在只能去改项目的官网下载zip包进行安装。</p>
+<h3 id="ADB-idea"><a href="#ADB-idea" class="headerlink" title="ADB idea:"></a><a href="https://github.com/pbreault/adb-idea/" target="_blank" rel="external">ADB idea</a>:</h3><p>android模拟器和手机的adb命令工具 </p>
+<h3 id="Codota"><a href="#Codota" class="headerlink" title="Codota:"></a><a href="http://www.codota.com/" target="_blank" rel="external">Codota</a>:</h3><p>拥有7百多万代码的代码搜索引擎    </p>
+<h3 id="Android-Postfix-Completion"><a href="#Android-Postfix-Completion" class="headerlink" title="Android Postfix Completion:"></a><a href="https://github.com/takahirom/android-postfix-plugin" target="_blank" rel="external">Android Postfix Completion</a>:</h3><p>Toast  log 的代码生成工具</p>
+<h3 id="Genymotion"><a href="#Genymotion" class="headerlink" title="Genymotion:"></a><a href="http://www.genymotion.net/" target="_blank" rel="external">Genymotion</a>:</h3><p>genymotion模拟器在studio中的插件，无缝连接</p>
+<h3 id="GsonFormat"><a href="#GsonFormat" class="headerlink" title="GsonFormat:"></a>GsonFormat:</h3><p>基于google官方推出的gson，json字符串解析插件</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="AndroidStudio必备插件"><a href="#AndroidStudio必备插件" class="headerlink" title="AndroidStudio必备插件"></a>AndroidStudio必备插件</h1><h3 id="Selec]]>
+    </summary>
+    
+      <category term="android" scheme="http://www.codingevo.com/tags/android/"/>
+    
+      <category term="Android studio" scheme="http://www.codingevo.com/tags/Android-studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[AndroidStudio的资源目录及说明]]></title>
+    <link href="http://www.codingevo.com/2015/06/08/AndroidStudio%E7%9A%84%E8%B5%84%E6%BA%90%E7%9B%AE%E5%BD%95%E5%8F%8A%E8%AF%B4%E6%98%8E/"/>
+    <id>http://www.codingevo.com/2015/06/08/AndroidStudio的资源目录及说明/</id>
+    <published>2015-06-08T13:49:50.000Z</published>
+    <updated>2016-04-08T13:53:28.000Z</updated>
+    <content type="html"><![CDATA[<p>AndroidStudio以下简称AS,因为as和eclipse目录有些区别，所以记录一下</p>
+<h3 id="as中没有assets目录，要用的话可以手动创建"><a href="#as中没有assets目录，要用的话可以手动创建" class="headerlink" title="as中没有assets目录，要用的话可以手动创建"></a>as中没有<code>assets</code>目录，要用的话可以手动创建</h3><p>##图片资源：</p>
+<h4 id="在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持"><a href="#在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持" class="headerlink" title="在eclipse中是drawable打头的。在AS中是mipmap开头的。mipmap会在图片缩放时提供一些性能支持"></a>在<code>eclipse</code>中是<code>drawable</code>打头的。在AS中是<code>mipmap</code>开头的。mipmap会在图片缩放时提供一些性能支持</h4><h3 id="drawable-存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件"><a href="#drawable-存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件" class="headerlink" title="drawable:存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件"></a><code>drawable</code>:存放各种位图文件png，jpg，9png，gif，和drawable类型的xml文件</h3><h3 id="mipmap-hdpi-高分辨率，一般我们把图片放在这里"><a href="#mipmap-hdpi-高分辨率，一般我们把图片放在这里" class="headerlink" title="mipmap-hdpi:高分辨率，一般我们把图片放在这里"></a><code>mipmap-hdpi</code>:高分辨率，一般我们把图片放在这里</h3><h3 id="mipmap-mdpi-中等分辨率，很少，除非兼容的手机很老。"><a href="#mipmap-mdpi-中等分辨率，很少，除非兼容的手机很老。" class="headerlink" title="mipmap-mdpi:中等分辨率，很少，除非兼容的手机很老。"></a><code>mipmap-mdpi</code>:中等分辨率，很少，除非兼容的手机很老。</h3><h3 id="mipmap-xhdpi-超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡"><a href="#mipmap-xhdpi-超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡" class="headerlink" title="mipmap-xhdpi:超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡"></a><code>mipmap-xhdpi</code>:超高分辨率，手机屏幕材质越来越好，以后估计会慢慢往这里过渡</h3><h3 id="mipmap-xxhdpi-超超高分辨率，这个在高端机上有所体现"><a href="#mipmap-xxhdpi-超超高分辨率，这个在高端机上有所体现" class="headerlink" title="mipmap-xxhdpi:超超高分辨率，这个在高端机上有所体现"></a><code>mipmap-xxhdpi</code>:超超高分辨率，这个在高端机上有所体现</h3><h3 id="布局资源：layout-存储布局文件，在特定的机型上：例如：layout-480x320的文件夹"><a href="#布局资源：layout-存储布局文件，在特定的机型上：例如：layout-480x320的文件夹" class="headerlink" title="布局资源：layout: 存储布局文件，在特定的机型上：例如：layout-480x320的文件夹"></a><code>布局资源：layout</code>: 存储布局文件，在特定的机型上：例如：<code>layout-480x320</code>的文件夹</h3><h3 id="菜单资源："><a href="#菜单资源：" class="headerlink" title="菜单资源："></a>菜单资源：</h3><h3 id="menu：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。"><a href="#menu：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。" class="headerlink" title="menu：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。"></a><code>menu</code>：在以前有物理菜单按钮，即menu菜单的手机，用的较多，现在用的并不多，菜单相关的资源xml文件在这里存储。</h3><h2 id="values目录："><a href="#values目录：" class="headerlink" title="values目录："></a>values目录：</h2><ul>
+<li><code>demens</code>:定义尺寸资源</li>
+<li><code>string</code>：定义字符串资源</li>
+<li><code>style</code>：定义样式资源</li>
+<li><code>colors</code>：定义颜色资源</li>
+<li><code>attrs</code>：自定义控件时用的较多，自定义控件属性。</li>
+<li><p><code>theme</code>:主题文件，和style相似，但是会对应用中的activity和制定activity起作用，一般是改变窗口外观的。可在java代码中通过setTheme使用，或者在AndroidManifest中的application比傲天添加theme属性。PS:你可以看到这样的目录，values-w820dp,values-v11,前者代表平板设备，820dp代表屏幕宽度，而v11代表AIP11，即3.0之后才能使用。</p>
+</li>
+<li><p><code>raw</code>:用于存放各种原生资源(音频,视频,xml文件)<br>我们可以通过OpenRawResource(Int id) 来获得二进制流，其实和Assets差不多，不过raw可以在R文件中生成一个唯一的资源标识符id而已</p>
+</li>
+<li><p><code>animator</code>:存放属性动画的xml文件</p>
+</li>
+<li><code>anim</code>：存放补间动画的xml文件</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>AndroidStudio以下简称AS,因为as和eclipse目录有些区别，所以记录一下</p>
+<h3 id="as中没有assets目录，要用的话可以手动创建"><a href="#as中没有assets目录，要用的话可以手动创建" class="headerlink]]>
+    </summary>
+    
+      <category term="android" scheme="http://www.codingevo.com/tags/android/"/>
+    
+      <category term="Android studio" scheme="http://www.codingevo.com/tags/Android-studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[vim常用命令]]></title>
+    <link href="http://www.codingevo.com/2015/03/11/vim%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://www.codingevo.com/2015/03/11/vim常用命令/</id>
+    <published>2015-03-11T13:53:09.000Z</published>
+    <updated>2016-04-08T14:47:32.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><p>vim中一些经常用到的命令,因为最近入手了一个mac笔记本，发现mac系统中无法直接创建txt文档，于是我知道了VIM.</p>
+<h2 id="删除："><a href="#删除：" class="headerlink" title="删除："></a>删除：</h2><ul>
+<li><code>d</code>+<code>gg</code> 删除当前到第一行</li>
+<li><code>d</code>+<code>G</code>  删除当前到最后一样</li>
+<li><code>dd</code>   删除当前行</li>
+<li>n<code>dd</code>  删除当前光标往下N行</li>
+<li><code>d0</code>   删除光标往前</li>
+<li><code>d$</code>   删除光标往后</li>
+</ul>
+<h2 id="跳转行："><a href="#跳转行：" class="headerlink" title="跳转行："></a>跳转行：</h2><ul>
+<li><code>gg</code>   跳到第一行</li>
+<li><code>G</code>    跳到最后一行</li>
+<li><code>nG</code>   跳到第N行</li>
+</ul>
+<h2 id="复制："><a href="#复制：" class="headerlink" title="复制："></a>复制：</h2><ul>
+<li>n<code>yy</code>  复制往下n行</li>
+</ul>
+<h2 id="粘贴："><a href="#粘贴：" class="headerlink" title="粘贴："></a>粘贴：</h2><ul>
+<li>小<code>p</code>  往下一行粘贴</li>
+<li>大<code>P</code>    往上一行粘贴</li>
+</ul>
+<h2 id="插入："><a href="#插入：" class="headerlink" title="插入："></a>插入：</h2><ul>
+<li><code>i</code>    往光标签插入</li>
+<li><code>I</code>    该行最前面插入</li>
+<li><code>a</code>    往光标后插入</li>
+<li><code>A</code>    该行最后面插入</li>
+<li><code>o</code>    当前行下行插入</li>
+<li><code>O</code>    当前行上行插入</li>
+</ul>
+<h2 id="查找："><a href="#查找：" class="headerlink" title="查找："></a>查找：</h2><ul>
+<li><code>/单词</code> 小<code>n</code>  往下找</li>
+<li><code>/单词</code> 大<code>N</code>  网上找</li>
+</ul>
+<h2 id="替换："><a href="#替换：" class="headerlink" title="替换："></a>替换：</h2><ul>
+<li><code>%S</code> <code>/查询条件/替换内容/g</code></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><p>vim中一些经常用到的命令,因为最近入手了一个mac笔记本，发现mac系统中无法直接创建txt文档，于是我知道了VIM.</p>
+<h2 i]]>
+    </summary>
+    
+      <category term="vim" scheme="http://www.codingevo.com/tags/vim/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>vim常用命令 | Coding Evo | karlwk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="vim">
+  <meta name="description" content="概要vim中一些经常用到的命令,因为最近入手了一个mac笔记本，发现mac系统中无法直接创建txt文档，于是我知道了VIM.
+删除：
+d+gg 删除当前到第一行
+d+G  删除当前到最后一样
+dd   删除当前行
+ndd  删除当前光标往下N行
+d0   删除光标往前
+d$   删除光标往后
+
+跳转行：
+gg   跳到第一行
+G    跳到最后一行
+nG   跳到第N行
+
+复制：
+nyy  复制往">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vim常用命令">
+<meta property="og:url" content="http://www.codingevo.com/2015/03/11/vim常用命令/index.html">
+<meta property="og:site_name" content="Coding Evo">
+<meta property="og:description" content="概要vim中一些经常用到的命令,因为最近入手了一个mac笔记本，发现mac系统中无法直接创建txt文档，于是我知道了VIM.
+删除：
+d+gg 删除当前到第一行
+d+G  删除当前到最后一样
+dd   删除当前行
+ndd  删除当前光标往下N行
+d0   删除光标往前
+d$   删除光标往后
+
+跳转行：
+gg   跳到第一行
+G    跳到最后一行
+nG   跳到第N行
+
+复制：
+nyy  复制往">
+<meta property="og:updated_time" content="2016-04-08T14:47:32.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="vim常用命令">
+<meta name="twitter:description" content="概要vim中一些经常用到的命令,因为最近入手了一个mac笔记本，发现mac系统中无法直接创建txt文档，于是我知道了VIM.
+删除：
+d+gg 删除当前到第一行
+d+G  删除当前到最后一样
+dd   删除当前行
+ndd  删除当前光标往下N行
+d0   删除光标往前
+d$   删除光标往后
+
+跳转行：
+gg   跳到第一行
+G    跳到最后一行
+nG   跳到第N行
+
+复制：
+nyy  复制往">
+  
+    <link rel="alternative" href="/atom.xml" title="Coding Evo" type="application/atom+xml">
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu" class="hide" >
+   <div class="inner">
+  <a href="javascript:;" class="header-icon waves-circle-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.png"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">karlwk</h5>
+        <a href="mailto:karlwk@codingevo.com" title="karlwk@codingevo.com" class="mail">karlwk@codingevo.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav">
+    
+        <li class="waves-block">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            主页
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            Archives
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/tags"  >
+            <i class="icon icon-lg icon-tags"></i>
+            Tags
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="https://github.com/wangkai1018" target="_blank" >
+            <i class="icon icon-lg icon-github"></i>
+            Github
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="http://weibo.com/u/1834790680" target="_blank" >
+            <i class="icon icon-lg icon-weibo"></i>
+            Weibo
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>Coding Evo &copy; 2018</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-circle-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">vim常用命令</div>
+        
+        <a href="javascript:;" class="header-icon waves-circle-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">vim常用命令</h1>
+    <h5 class="subtitle">2015-03-11</h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      
+  <article id="post-vim常用命令" class="article article-type-post" itemscope itemprop="blogPost">
+    
+      <div class="post-meat flex-row">
+        <div class="flex-col">
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vim/">vim</a></li></ul>
+</div>
+      </div>
+      <div class="post-body">
+
+        <aside class="post-widget" id="post-widget">
+
+          
+          <div class="post-share" id="post-share" data-title="vim常用命令" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/03/11/vim常用命令/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+          
+
+          
+          <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#概要"><span class="post-toc-text">概要</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#删除："><span class="post-toc-text">删除：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#跳转行："><span class="post-toc-text">跳转行：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#复制："><span class="post-toc-text">复制：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#粘贴："><span class="post-toc-text">粘贴：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#插入："><span class="post-toc-text">插入：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#查找："><span class="post-toc-text">查找：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#替换："><span class="post-toc-text">替换：</span></a>
+          </nav>
+          
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" itemprop="postContent"><h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><p>vim中一些经常用到的命令,因为最近入手了一个mac笔记本，发现mac系统中无法直接创建txt文档，于是我知道了VIM.</p>
+<h2 id="删除："><a href="#删除：" class="headerlink" title="删除："></a>删除：</h2><ul>
+<li><code>d</code>+<code>gg</code> 删除当前到第一行</li>
+<li><code>d</code>+<code>G</code>  删除当前到最后一样</li>
+<li><code>dd</code>   删除当前行</li>
+<li>n<code>dd</code>  删除当前光标往下N行</li>
+<li><code>d0</code>   删除光标往前</li>
+<li><code>d$</code>   删除光标往后</li>
+</ul>
+<h2 id="跳转行："><a href="#跳转行：" class="headerlink" title="跳转行："></a>跳转行：</h2><ul>
+<li><code>gg</code>   跳到第一行</li>
+<li><code>G</code>    跳到最后一行</li>
+<li><code>nG</code>   跳到第N行</li>
+</ul>
+<h2 id="复制："><a href="#复制：" class="headerlink" title="复制："></a>复制：</h2><ul>
+<li>n<code>yy</code>  复制往下n行</li>
+</ul>
+<h2 id="粘贴："><a href="#粘贴：" class="headerlink" title="粘贴："></a>粘贴：</h2><ul>
+<li>小<code>p</code>  往下一行粘贴</li>
+<li>大<code>P</code>    往上一行粘贴</li>
+</ul>
+<h2 id="插入："><a href="#插入：" class="headerlink" title="插入："></a>插入：</h2><ul>
+<li><code>i</code>    往光标签插入</li>
+<li><code>I</code>    该行最前面插入</li>
+<li><code>a</code>    往光标后插入</li>
+<li><code>A</code>    该行最后面插入</li>
+<li><code>o</code>    当前行下行插入</li>
+<li><code>O</code>    当前行上行插入</li>
+</ul>
+<h2 id="查找："><a href="#查找：" class="headerlink" title="查找："></a>查找：</h2><ul>
+<li><code>/单词</code> 小<code>n</code>  往下找</li>
+<li><code>/单词</code> 大<code>N</code>  网上找</li>
+</ul>
+<h2 id="替换："><a href="#替换：" class="headerlink" title="替换："></a>替换：</h2><ul>
+<li><code>%S</code> <code>/查询条件/替换内容/g</code></li>
+</ul>
+</div>
+
+            
+<nav class="post-nav flex-row">
+  <div class="flex-col waves-block prev">
+    
+      <a href="/2015/06/08/AndroidStudio的资源目录及说明/" title="AndroidStudio的资源目录及说明" id="post-prev" class="post-nav-link">
+        <i class="icon icon-chevron-left"></i>
+        <span class="article-nav-title">上一篇</span>
+      </a>
+    
+  </div>
+  <div class="flex-col waves-block next">
+    
+  </div>
+
+</nav>
+
+
+
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="vim常用命令" data-title="vim常用命令" data-url="http://www.codingevo.com/2015/03/11/vim常用命令/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"ysblog"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    
+
+  </article>
+
+
+
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-circle-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<div class="global-share" id="global-share" data-title="vim常用命令" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/03/11/vim常用命令/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

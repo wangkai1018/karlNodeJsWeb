@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>AndroidStudio使用技巧 | Coding Evo | karlwk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="android,Android studio">
+  <meta name="description" content="MAC系统专用
+快捷键：1.方法重构：command+option+M
+2.于重构相反：command+option+I
+3.快速模糊搜索当前中任何文件：double shift
+4.搜索工程内任意代码，可以模块（modlue）,根据正则匹配搜索：control+H
+5.发现使用调用位置find Usages:shift+command+G
+6.快速定位关联的文件Declaration：cont">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AndroidStudio使用技巧">
+<meta property="og:url" content="http://www.codingevo.com/2015/06/13/AndroidStudio使用技巧/index.html">
+<meta property="og:site_name" content="Coding Evo">
+<meta property="og:description" content="MAC系统专用
+快捷键：1.方法重构：command+option+M
+2.于重构相反：command+option+I
+3.快速模糊搜索当前中任何文件：double shift
+4.搜索工程内任意代码，可以模块（modlue）,根据正则匹配搜索：control+H
+5.发现使用调用位置find Usages:shift+command+G
+6.快速定位关联的文件Declaration：cont">
+<meta property="og:image" content="http://7xst5r.com2.z0.glb.clouddn.com/androidstudio.png">
+<meta property="og:updated_time" content="2018-02-17T03:00:23.427Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AndroidStudio使用技巧">
+<meta name="twitter:description" content="MAC系统专用
+快捷键：1.方法重构：command+option+M
+2.于重构相反：command+option+I
+3.快速模糊搜索当前中任何文件：double shift
+4.搜索工程内任意代码，可以模块（modlue）,根据正则匹配搜索：control+H
+5.发现使用调用位置find Usages:shift+command+G
+6.快速定位关联的文件Declaration：cont">
+<meta name="twitter:image" content="http://7xst5r.com2.z0.glb.clouddn.com/androidstudio.png">
+  
+    <link rel="alternative" href="/atom.xml" title="Coding Evo" type="application/atom+xml">
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu" class="hide" >
+   <div class="inner">
+  <a href="javascript:;" class="header-icon waves-circle-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.png"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">karlwk</h5>
+        <a href="mailto:karlwk@codingevo.com" title="karlwk@codingevo.com" class="mail">karlwk@codingevo.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav">
+    
+        <li class="waves-block">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            主页
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            Archives
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/tags"  >
+            <i class="icon icon-lg icon-tags"></i>
+            Tags
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="https://github.com/wangkai1018" target="_blank" >
+            <i class="icon icon-lg icon-github"></i>
+            Github
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="http://weibo.com/u/1834790680" target="_blank" >
+            <i class="icon icon-lg icon-weibo"></i>
+            Weibo
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>Coding Evo &copy; 2018</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-circle-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">AndroidStudio使用技巧</div>
+        
+        <a href="javascript:;" class="header-icon waves-circle-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">AndroidStudio使用技巧</h1>
+    <h5 class="subtitle">2015-06-13</h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      
+  <article id="post-AndroidStudio使用技巧" class="article article-type-post" itemscope itemprop="blogPost">
+    
+      <div class="post-meat flex-row">
+        <div class="flex-col">
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android-studio/">Android studio</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/android/">android</a></li></ul>
+</div>
+      </div>
+      <div class="post-body">
+
+        <aside class="post-widget" id="post-widget">
+
+          
+          <div class="post-share" id="post-share" data-title="AndroidStudio使用技巧" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/06/13/AndroidStudio使用技巧/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+          
+
+          
+          <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#快捷键："><span class="post-toc-text">快捷键：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#模板："><span class="post-toc-text">模板：</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#文件模板File-Template"><span class="post-toc-text">文件模板File Template:</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#活动模板live-Template"><span class="post-toc-text">活动模板live Template:</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#导入github第三方类库，常见错误解决方法："><span class="post-toc-text">导入github第三方类库，常见错误解决方法：</span></a></li></ol>
+          </nav>
+          
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" itemprop="postContent"><p><img src="http://7xst5r.com2.z0.glb.clouddn.com/androidstudio.png" alt="image"></p>
+<p>MAC系统专用</p>
+<h3 id="快捷键："><a href="#快捷键：" class="headerlink" title="快捷键："></a>快捷键：</h3><p>1.方法重构：<code>command</code>+<code>option</code>+<code>M</code></p>
+<p>2.于重构相反：<code>command</code>+<code>option</code>+<code>I</code></p>
+<p>3.快速模糊搜索当前中任何文件：double <code>shift</code></p>
+<p>4.搜索工程内任意代码，可以模块（<code>modlue</code>）,根据正则匹配搜索：<code>control</code>+<code>H</code></p>
+<p>5.发现使用调用位置<code>find Usages</code>:<code>shift</code>+<code>command</code>+<code>G</code></p>
+<p>6.快速定位关联的文件<code>Declaration</code>：<code>control</code>+鼠标左键</p>
+<p>7.代码提示快捷键<code>Class Name Completion</code></p>
+<hr>
+<h3 id="模板："><a href="#模板：" class="headerlink" title="模板："></a>模板：</h3><h4 id="文件模板File-Template"><a href="#文件模板File-Template" class="headerlink" title="文件模板File Template:"></a>文件模板<code>File Template</code>:</h4><ul>
+<li><p>保存文件模板 ：</p>
+<p><code>tools</code>-&gt;<code>Save file as template</code></p>
+<p>会默认把当前编辑的文件，保存成模板</p>
+</li>
+<li><p>查看模板：</p>
+<p>鼠标右键菜单中可以查看</p>
+</li>
+</ul>
+<h4 id="活动模板live-Template"><a href="#活动模板live-Template" class="headerlink" title="活动模板live Template:"></a>活动模板<code>live Template</code>:</h4><ul>
+<li>保存自定义活动模板：选中代码后， <code>tools</code>-&gt;<code>Save  as live template</code>，然后键入此活动模板的名字</li>
+<li>活动模板的使用：可以使用as已经编辑好的模板，直接使用,输入模板关键字，直接生成代码:</li>
+</ul>
+<p><code>fbc</code></p>
+<pre><code>() findViewById(R.id.);
+</code></pre><p><code>rouiT</code></p>
+<pre><code>getActivity().runOnUiThread(new Runnable() {
+      @Override
+      public void run() {
+
+      }
+  });
+</code></pre><p> <code>Sfmt</code></p>
+<pre><code>String.format(&quot;&quot;, );
+</code></pre><p>  <code>Toast</code></p>
+<pre><code>Toast.makeText(MainActivity.this, &quot;&quot;,Toast.LENGTH_SHORT).show();
+</code></pre><p>  <code>visible</code></p>
+<pre><code>.setVisibility(View.VISIBLE);
+</code></pre><p>   <code>gone</code></p>
+<pre><code>.setVisibility(View.GONE);
+</code></pre><p>   <code>rgS</code></p>
+<pre><code>.getString(R.string.)
+</code></pre><hr>
+<hr>
+<h3 id="导入github第三方类库，常见错误解决方法："><a href="#导入github第三方类库，常见错误解决方法：" class="headerlink" title="导入github第三方类库，常见错误解决方法："></a>导入github第三方类库，常见错误解决方法：</h3><p><a href="http://www.androidchina.net/4322.html" target="_blank" rel="external">去查看</a></p>
+</div>
+
+            
+<nav class="post-nav flex-row">
+  <div class="flex-col waves-block prev">
+    
+      <a href="/2015/06/26/git的使用/" title="git和svn的区别" id="post-prev" class="post-nav-link">
+        <i class="icon icon-chevron-left"></i>
+        <span class="article-nav-title">上一篇</span>
+      </a>
+    
+  </div>
+  <div class="flex-col waves-block next">
+    
+      <a href="/2015/06/09/AndroidStudio必备插件/" title="AndroidStudio必备插件" id="post-next" class="post-nav-link">
+        <span class="article-nav-title">下一篇</span>
+        <i class="icon icon-chevron-right"></i>
+      </a>
+    
+  </div>
+
+</nav>
+
+
+
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="AndroidStudio使用技巧" data-title="AndroidStudio使用技巧" data-url="http://www.codingevo.com/2015/06/13/AndroidStudio使用技巧/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"ysblog"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    
+
+  </article>
+
+
+
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-circle-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<div class="global-share" id="global-share" data-title="AndroidStudio使用技巧" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/06/13/AndroidStudio使用技巧/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>git和svn的区别 | Coding Evo | karlwk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="git">
+  <meta name="description" content="概述git是一个开源的分布式版本控制系统，与常用的SVN,CVS等不同。因为采取了分布式版本库的方式，不需要服务器软件的支持。
+git他不仅仅是个版本控制系统，还是个内容管理系统CMS.
+Git和SVN区别：
+git是分布式的，svn和cvs不是，这个是最核心的区别
+git把内容元数据方式存储，而SVN是按文件：把所有的版本控制系统都是把元文件信息隐藏在svn,cvs等文件中
+git分支和svn的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git和svn的区别">
+<meta property="og:url" content="http://www.codingevo.com/2015/06/26/git的使用/index.html">
+<meta property="og:site_name" content="Coding Evo">
+<meta property="og:description" content="概述git是一个开源的分布式版本控制系统，与常用的SVN,CVS等不同。因为采取了分布式版本库的方式，不需要服务器软件的支持。
+git他不仅仅是个版本控制系统，还是个内容管理系统CMS.
+Git和SVN区别：
+git是分布式的，svn和cvs不是，这个是最核心的区别
+git把内容元数据方式存储，而SVN是按文件：把所有的版本控制系统都是把元文件信息隐藏在svn,cvs等文件中
+git分支和svn的">
+<meta property="og:updated_time" content="2016-04-08T13:56:30.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="git和svn的区别">
+<meta name="twitter:description" content="概述git是一个开源的分布式版本控制系统，与常用的SVN,CVS等不同。因为采取了分布式版本库的方式，不需要服务器软件的支持。
+git他不仅仅是个版本控制系统，还是个内容管理系统CMS.
+Git和SVN区别：
+git是分布式的，svn和cvs不是，这个是最核心的区别
+git把内容元数据方式存储，而SVN是按文件：把所有的版本控制系统都是把元文件信息隐藏在svn,cvs等文件中
+git分支和svn的">
+  
+    <link rel="alternative" href="/atom.xml" title="Coding Evo" type="application/atom+xml">
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu" class="hide" >
+   <div class="inner">
+  <a href="javascript:;" class="header-icon waves-circle-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.png"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">karlwk</h5>
+        <a href="mailto:karlwk@codingevo.com" title="karlwk@codingevo.com" class="mail">karlwk@codingevo.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav">
+    
+        <li class="waves-block">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            主页
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            Archives
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="/tags"  >
+            <i class="icon icon-lg icon-tags"></i>
+            Tags
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="https://github.com/wangkai1018" target="_blank" >
+            <i class="icon icon-lg icon-github"></i>
+            Github
+          </a>
+        </li>
+    
+        <li class="waves-block">
+          <a href="http://weibo.com/u/1834790680" target="_blank" >
+            <i class="icon icon-lg icon-weibo"></i>
+            Weibo
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>Coding Evo &copy; 2018</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-circle-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">git和svn的区别</div>
+        
+        <a href="javascript:;" class="header-icon waves-circle-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">git和svn的区别</h1>
+    <h5 class="subtitle">2015-06-26</h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      
+  <article id="post-git的使用" class="article article-type-post" itemscope itemprop="blogPost">
+    
+      <div class="post-meat flex-row">
+        <div class="flex-col">
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
+</div>
+      </div>
+      <div class="post-body">
+
+        <aside class="post-widget" id="post-widget">
+
+          
+          <div class="post-share" id="post-share" data-title="git和svn的区别" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/06/26/git的使用/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+          
+
+          
+          <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#概述"><span class="post-toc-text">概述</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Git和SVN区别："><span class="post-toc-text">Git和SVN区别：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#在git-log-–oneline-命令进入log页面后，按q退出当前页面"><span class="post-toc-text">在git log –oneline 命令进入log页面后，按q退出当前页面</span></a>
+          </nav>
+          
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" itemprop="postContent"><h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>git是一个开源的<strong>分布式</strong>版本控制系统，与常用的<strong>SVN</strong>,<strong>CVS</strong>等不同。因为采取了分布式版本库的方式，不需要服务器软件的支持。</p>
+<p>git他不仅仅是个版本控制系统，还是个内容管理系统<strong>CMS</strong>.</p>
+<h2 id="Git和SVN区别："><a href="#Git和SVN区别：" class="headerlink" title="Git和SVN区别："></a>Git和SVN区别：</h2><ol>
+<li>git是分布式的，svn和cvs不是，这个是最核心的区别</li>
+<li>git把内容元数据方式存储，而SVN是按文件：把所有的版本控制系统都是把元文件信息隐藏在svn,cvs等文件中</li>
+<li>git分支和svn的分支不同：分支在svn中一点都不特别，就是版本中的另外一个目录</li>
+<li>git没有一个全局的版本号，而svn有：目前为止这是svn相比git缺少的最大的一个特征</li>
+<li>git的内容完整性要优于svn，git的内容存储使用的是<strong>SHA-1</strong>哈希算法，这样能确保代码内容的完整性，确保在遇到磁盘和网络问题时减低对版本库的破坏</li>
+</ol>
+<h2 id="在git-log-–oneline-命令进入log页面后，按q退出当前页面"><a href="#在git-log-–oneline-命令进入log页面后，按q退出当前页面" class="headerlink" title="在git log –oneline 命令进入log页面后，按q退出当前页面"></a>在git log –oneline 命令进入log页面后，按q退出当前页面</h2></div>
+
+            
+<nav class="post-nav flex-row">
+  <div class="flex-col waves-block prev">
+    
+      <a href="/2015/09/06/android-ADB-常用命令/" title="android ADB 常用命令" id="post-prev" class="post-nav-link">
+        <i class="icon icon-chevron-left"></i>
+        <span class="article-nav-title">上一篇</span>
+      </a>
+    
+  </div>
+  <div class="flex-col waves-block next">
+    
+      <a href="/2015/06/13/AndroidStudio使用技巧/" title="AndroidStudio使用技巧" id="post-next" class="post-nav-link">
+        <span class="article-nav-title">下一篇</span>
+        <i class="icon icon-chevron-right"></i>
+      </a>
+    
+  </div>
+
+</nav>
+
+
+
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="git的使用" data-title="git和svn的区别" data-url="http://www.codingevo.com/2015/06/26/git的使用/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"ysblog"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    
+
+  </article>
+
+
+
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-circle-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<div class="global-share" id="global-share" data-title="git和svn的区别" data-pic="/img/logo.png" data-summary="比想要的东西更宝贵的事务，一定会出现在追求的过程当中" data-url="http://www.codingevo.com/2015/06/26/git的使用/index.html">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
